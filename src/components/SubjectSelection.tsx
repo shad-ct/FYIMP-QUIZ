@@ -3,9 +3,9 @@ import { Card } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
 
 const subjects = [
-  { id: "edp", name: "Engineering Drawing & Practice" },
+  { id: "edp", name: "Engineering Prototype and Designing" },
   { id: "fcs", name: "Fundamentals of Computer Science" },
-  { id: "physical", name: "Physical Sciences" },
+  { id: "physical", name: "Physical Education" },
   { id: "stati", name: "Statistics" },
   { id: "maths", name: "Mathematics" }
 ];
