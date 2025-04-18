@@ -1,12 +1,29 @@
 
 import { useParams, useNavigate } from "react-router-dom";
 import { Card } from "@/components/ui/card";
+import { edpQuestions } from "@/data/edpQuestions";
+import { fcsQuestions } from "@/data/fcsQuestions";
+import { physicalQuestions } from "@/data/physicalQuestions";
+import { statiQuestions } from "@/data/statiQuestions";
+import { mathsQuestions } from "@/data/mathsQuestions";
+
+const questionSets = {
+  edp: edpQuestions,
+  fcs: fcsQuestions,
+  physical: physicalQuestions,
+  stati: statiQuestions,
+  maths: mathsQuestions,
+};
 
 export function ModuleSelection() {
   const { subjectId } = useParams();
   const navigate = useNavigate();
 
-  const modules = ["module1", "module2"];
+  if (!subjectId || !questionSets[subjectId as keyof typeof questionSets]) {
+    return <div>Subject not found</div>;
+  }
+
+  const modules = Object.keys(questionSets[subjectId as keyof typeof questionSets]);
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -21,6 +38,9 @@ export function ModuleSelection() {
             <h2 className="text-xl font-semibold capitalize">
               {moduleId.replace(/([A-Z])/g, " $1").trim()}
             </h2>
+            <p className="text-sm text-gray-500 mt-2">
+              {questionSets[subjectId as keyof typeof questionSets][moduleId as keyof typeof edpQuestions].questions.length} Questions
+            </p>
           </Card>
         ))}
       </div>
