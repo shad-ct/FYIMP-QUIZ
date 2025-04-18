@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">vite_react_shadcn_ts</string>
+    <string name="title_activity_main">vite_react_shadcn_ts</string>
+    <string name="package_name">com.quizy.app</string>
+    <string name="custom_url_scheme">com.quizy.app</string>
+</resources>
