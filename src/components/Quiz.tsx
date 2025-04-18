@@ -1,9 +1,9 @@
-
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { edpQuestions } from "@/data/edpQuestions";
 import { fcsQuestions } from "@/data/fcsQuestions";
 import { physicalQuestions } from "@/data/physicalQuestions";
@@ -75,16 +75,16 @@ export function Quiz() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="flex justify-between items-center mb-8">
-        <div className="flex gap-2 overflow-x-auto py-2">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+        <div className="flex flex-wrap gap-2 overflow-x-auto py-2 w-full md:w-auto">
           {questions.map((_, index) => (
             <Button
               key={index}
               variant={currentQuestion === index ? "default" : "outline"}
               onClick={() => setCurrentQuestion(index)}
-              className={answers[index] ? 
+              className={`${answers[index] ? 
                 (answers[index].isCorrect ? "bg-green-500 hover:bg-green-600" : "bg-red-500 hover:bg-red-600") 
-                : undefined}
+                : undefined} min-w-[40px]`}
             >
               {index + 1}
             </Button>
@@ -118,24 +118,32 @@ export function Quiz() {
             <DialogTitle>Quiz Results</DialogTitle>
           </DialogHeader>
           <div className="py-4">
-            <div className="text-center mb-4">
-              <h3 className="text-2xl font-bold text-primary">
-                Score: {score.correct}/{score.total} ({score.percentage}%)
+            <div className="text-center mb-6">
+              <h3 className="text-3xl font-bold">
+                Score: {score.correct}/{score.total}
               </h3>
+              <p className="text-xl font-semibold text-muted-foreground mt-2">
+                {score.percentage}%
+              </p>
             </div>
-            <div className="space-y-2">
-              {questions.map((q, index) => (
-                <div key={index} className={`p-3 rounded-lg ${
-                  answers[index]?.isCorrect ? 'bg-green-100' : 'bg-red-100'
-                }`}>
-                  <p className="font-medium">Question {index + 1}</p>
-                  <p className="text-sm text-gray-600">Your answer: {
-                    answers[index] ? answers[index].selectedOption.toUpperCase() : 'Not answered'
-                  }</p>
-                  <p className="text-sm text-gray-600">Correct answer: {q.answer.toUpperCase()}</p>
-                </div>
-              ))}
-            </div>
+            <ScrollArea className="h-[60vh] w-full rounded-md border p-4">
+              <div className="space-y-4">
+                {questions.map((q, index) => (
+                  <div key={index} className={`p-4 rounded-lg ${
+                    answers[index]?.isCorrect ? 'bg-green-100 dark:bg-green-900/20' : 'bg-red-100 dark:bg-red-900/20'
+                  }`}>
+                    <p className="font-medium mb-2">Question {index + 1}</p>
+                    <p className="text-sm mb-2">{q.question}</p>
+                    <p className="text-sm text-muted-foreground">
+                      Your answer: {answers[index] ? answers[index].selectedOption.toUpperCase() : 'Not answered'}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      Correct answer: {q.answer.toUpperCase()}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </ScrollArea>
           </div>
         </DialogContent>
       </Dialog>
