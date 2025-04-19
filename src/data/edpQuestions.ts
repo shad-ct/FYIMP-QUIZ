@@ -1,4 +1,3 @@
-
 export const edpQuestions = {
   module1: {
     name: "Module 1: Engineering Drawing for Prototyping",
@@ -14,492 +13,492 @@ export const edpQuestions = {
         "answer": "b"
       },
       {
-        "question": "2. In the context of prototyping, engineering drawings are crucial for:",
+        "question": "2. How does engineering drawing primarily differ from artistic drawing?",
         "options": {
-          "a": "Marketing the prototype to investors.",
-          "b": "Evaluating design feasibility, defining specifications, and guiding prototype construction.",
-          "c": "Choosing the color scheme of the final product.",
-          "d": "Writing the user manual."
+          "a": "Engineering drawings use color, while artistic drawings are monochrome.",
+          "b": "Artistic drawings focus on emotion/aesthetics, while engineering drawings prioritize technical accuracy and communication.",
+          "c": "Engineering drawings are always done freehand.",
+          "d": "Artistic drawings require specific instruments, while engineering drawings do not."
         },
         "answer": "b"
       },
       {
-        "question": "3. How do engineering drawings aid in identifying design defects early?",
+        "question": "3. According to the provided text, what role does engineering drawing play in prototyping?",
         "options": {
-          "a": "By using complex color codes.",
-          "b": "By providing detailed visual representations including dimensions, tolerances, and material specifications.",
-          "c": "By automatically running simulations.",
-          "d": "By including marketing slogans."
+          "a": "It's only used after the prototype is built.",
+          "b": "It helps validate the design, identify defects early, and serves as a universal language for communication.",
+          "c": "It primarily focuses on the color scheme of the prototype.",
+          "d": "It is irrelevant in the age of CAD."
         },
         "answer": "b"
       },
       {
-        "question": "4. Engineering drawing acts as a 'Universal Language' among which stakeholders?",
+        "question": "4. Which organization is mentioned as recommending international standards for engineering drawing?",
         "options": {
-          "a": "Marketing and Sales teams only.",
-          "b": "End-users and customers only.",
-          "c": "Designers, engineers, and manufacturers.",
-          "d": "Legal and finance departments only."
+          "a": "ANSI (American National Standards Institute)",
+          "b": "BIS (Bureau of Indian Standards)",
+          "c": "ISO (International Organisation for Standardisation)",
+          "d": "IEEE (Institute of Electrical and Electronics Engineers)"
         },
         "answer": "c"
       },
       {
-        "question": "5. Why are engineering drawings considered important historical records?",
+        "question": "5. What information is typically found in the title block of an engineering drawing sheet?",
         "options": {
-          "a": "They show the initial artistic concept.",
-          "b": "They document design changes, revisions, and development history for future reference, repair, and maintenance.",
-          "c": "They list the names of all engineers involved.",
-          "d": "They are required for tax purposes only."
+          "a": "Only the date the drawing was created.",
+          "b": "Instructions on how to fold the sheet.",
+          "c": "Details like drawing title, number, scale, projection method, material, and creator's information.",
+          "d": "A list of alternative design ideas."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "6. What is the primary purpose of adhering to drawing standards (like ISO or BIS)?",
+        "options": {
+          "a": "To make drawings more artistic.",
+          "b": "To ensure clear, universally understood communication and reduce errors.",
+          "c": "To increase the cost of producing drawings.",
+          "d": "To limit the creativity of the designer."
         },
         "answer": "b"
       },
       {
-        "question": "6. The integration of CAD into engineering drawing has primarily led to:",
+        "question": "7. Which of the following is NOT listed as a drawing instrument in the provided materials?",
         "options": {
-          "a": "Decreased accuracy but faster creation.",
-          "b": "Increased need for manual instruments.",
-          "c": "Drawings being more accurate, faster to create, easier to modify, and enabling 3D visualization.",
-          "d": "Elimination of the need for drawing standards."
+          "a": "Mini drafter",
+          "b": "French curves",
+          "c": "Spectrometer",
+          "d": "Compass"
         },
         "answer": "c"
       },
       {
-        "question": "7. Which element is NOT typically found in an artistic drawing but is essential in an engineering drawing?",
+        "question": "8. What is a 'Drawing Sheet' primarily composed of?",
         "options": {
-          "a": "Lines",
-          "b": "Shading",
-          "c": "Precise dimensions and tolerances",
-          "d": "Perspective"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "8. Artistic drawing primarily focuses on:",
-        "options": {
-          "a": "Technical accuracy and standards.",
-          "b": "Communicating manufacturing instructions.",
-          "c": "Aesthetic appeal, emotion, and creative expression.",
-          "d": "Material specifications."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "9. Engineering drawings require adherence to specific rules and codes of practice known as:",
-        "options": {
-          "a": "Artistic conventions",
-          "b": "Marketing guidelines",
-          "c": "Drawing standards (e.g., ISO, BIS, ANSI)",
-          "d": "Personal preferences"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "10. Building drawings for civil engineers and machine drawings for mechanical engineers are examples of:",
-        "options": {
-          "a": "Artistic Drawing",
-          "b": "Concept Sketches",
-          "c": "Engineering Drawing",
-          "d": "User Interface Mockups"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "11. What is a key difference in the requirement for scaling between artistic and engineering drawings?",
-        "options": {
-          "a": "Scaling is essential in artistic drawing but not engineering drawing.",
-          "b": "Scaling is essential and must be clearly indicated in engineering drawing, while it's often not necessary or precise in artistic drawing.",
-          "c": "Both require precise scaling at all times.",
-          "d": "Neither typically uses scaling."
+          "a": "Thin plastic film",
+          "b": "Thick paper onto which the drawing is made",
+          "c": "Canvas used for painting",
+          "d": "Metal plate"
         },
         "answer": "b"
       },
       {
-        "question": "12. Understanding an engineering drawing often requires:",
+        "question": "9. The Bureau of Indian Standards (BIS) recommends which series of paper sizes for drawing sheets?",
         "options": {
-          "a": "No specific knowledge.",
-          "b": "Only artistic talent.",
-          "c": "Specific knowledge of standards, symbols, and conventions, or training.",
-          "d": "Fluency in multiple languages."
+          "a": "ISO-B series",
+          "b": "ISO-A series",
+          "c": "ANSI series",
+          "d": "JIS series"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "10. What does 'gsm' stand for in the context of drawing paper suitability?",
+        "options": {
+          "a": "General Sheet Measurement",
+          "b": "Grams per square metre",
+          "c": "Grade of Sheet Material",
+          "d": "Gloss Surface Metric"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "11. How are drawing pencils graded?",
+        "options": {
+          "a": "By their color",
+          "b": "By the length of the pencil",
+          "c": "According to the proportion of graphite to clay mixture in the lead",
+          "d": "By the brand name"
         },
         "answer": "c"
       },
       {
-        "question": "13. The 'Title Block' on an engineering drawing sheet typically contains information such as:",
+        "question": "12. What does the pencil grade 'HB' represent?",
         "options": {
-          "a": "The artist's signature and date.",
-          "b": "Drawing title, number, scale, projection method, material, and company name.",
-          "c": "A poem related to the design.",
-          "d": "Marketing information and price."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "14. What is the purpose of the 'Border Line' on a drawing sheet?",
-        "options": {
-          "a": "To make the drawing look neat.",
-          "b": "To define the working area of the drawing sheet.",
-          "c": "To indicate where to fold the sheet.",
-          "d": "To list the drawing instruments used."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "15. Standard conventions in engineering drawings cover aspects like:",
-        "options": {
-          "a": "Color choices and brush strokes.",
-          "b": "Layout, nomenclature, interpretation, appearance, and size.",
-          "c": "Emotional expression and theme.",
-          "d": "Font styles for artistic effect."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "16. Which BIS standard specifically deals with the Sizes and Layout of Drawing Sheets?",
-        "options": {
-          "a": "IS 10713: 1983",
-          "b": "IS 11664: 1986",
-          "c": "IS 10711: 2001",
-          "d": "IS 15021: 2001"
+          "a": "Very Hard",
+          "b": "Very Soft",
+          "c": "Medium grade",
+          "d": "Hard Black"
         },
         "answer": "c"
       },
       {
-        "question": "17. Which BIS standard relates to Projection Methods used in technical drawings?",
+        "question": "13. What kind of line does a hard pencil (e.g., 4H) typically produce compared to a soft pencil (e.g., 4B)?",
+        "options": {
+          "a": "Thick, dark line",
+          "b": "Thin, grey line",
+          "c": "Blue line",
+          "d": "Dotted line"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "14. Which drawing instrument is used for drawing circles and arcs?",
+        "options": {
+          "a": "Protractor",
+          "b": "Set square",
+          "c": "Compass",
+          "d": "Ruler"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "15. What is the function of a Protractor in engineering drawing?",
+        "options": {
+          "a": "Drawing circles",
+          "b": "Measuring and setting out angles",
+          "c": "Drawing parallel lines",
+          "d": "Erasing lines"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "16. 'French curves' are used for:",
+        "options": {
+          "a": "Drawing straight lines",
+          "b": "Drawing irregular curves that are not arcs",
+          "c": "Measuring distances",
+          "d": "Erasing large areas"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "17. What is the purpose of 'Set squares'?",
+        "options": {
+          "a": "Drawing circles",
+          "b": "Drawing horizontal, vertical, and inclined lines at specific angles (e.g., 30, 45, 60 degrees)",
+          "c": "Measuring curves",
+          "d": "Holding the drawing sheet"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "18. According to the text, engineering drawings serve as useful records for what?",
+        "options": {
+          "a": "Artistic inspiration",
+          "b": "Historical archives only",
+          "c": "Future reference for repair, maintenance, improvement, and tracking design changes",
+          "d": "Calculating the cost of materials"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "19. What is 'Orthographic Projection' in engineering drawing?",
+        "options": {
+          "a": "A 3D view showing perspective.",
+          "b": "Representing an object through multiple 2D views (front, top, side) without perspective distortion.",
+          "c": "A freehand sketch of the object.",
+          "d": "A drawing using only curves."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "20. How many standard views are typically considered in orthographic projection?",
+        "options": {
+          "a": "Two",
+          "b": "Four",
+          "c": "Six",
+          "d": "Eight"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "21. What is the key difference between Isometric projection and Orthographic projection?",
+        "options": {
+          "a": "Isometric is 2D, Orthographic is 3D.",
+          "b": "Isometric shows a 3D representation in a single view with axes equally inclined, while Orthographic uses multiple 2D views.",
+          "c": "Orthographic uses perspective, Isometric does not.",
+          "d": "Isometric drawings are always smaller than orthographic drawings."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "22. Perspective projection aims to represent an object:",
+        "options": {
+          "a": "Using only top and front views.",
+          "b": "As the human eye sees it, with lines converging at vanishing points.",
+          "c": "Without any distortion.",
+          "d": "With all dimensions shown true to scale."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "23. What is the main advantage of using CAD (Computer-Aided Design) for engineering drawings over manual methods?",
+        "options": {
+          "a": "It requires less skill.",
+          "b": "It's always cheaper.",
+          "c": "Increased accuracy, ease of modification, speed, 3D visualization, and easier sharing.",
+          "d": "It eliminates the need for understanding drawing standards."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "24. Which BIS standard relates to the Sizes and Layout of Drawing Sheets?",
         "options": {
           "a": "IS 9609",
-          "b": "IS 10714",
-          "c": "IS 11663: 1986",
-          "d": "IS 15021 (Part 1-4) 2001"
-        },
-        "answer": "d"
-      },
-      {
-        "question": "18. Why are standard methods for folding drawing prints (like IS 11664: 1986) necessary?",
-        "options": {
-          "a": "To make them look artistic.",
-          "b": "To ensure they fit into standard filing systems (like A4 binders) and the title block remains visible.",
-          "c": "To make them easier to tear.",
-          "d": "To hide confidential information."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "19. Folding methods typically aim to fold larger sheets down to what standard size for filing?",
-        "options": {
-          "a": "A0",
-          "b": "A1",
-          "c": "A3",
-          "d": "A4"
-        },
-        "answer": "d"
-      },
-      {
-        "question": "20. When folding a drawing sheet, the main goal regarding the title block is to:",
-        "options": {
-          "a": "Hide it completely.",
-          "b": "Ensure it is visible on the front of the folded sheet.",
-          "c": "Place it on the back.",
-          "d": "Cut it off before folding."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "21. Which drawing instrument is essential for drawing straight lines of specific lengths and transferring dimensions?",
-        "options": {
-          "a": "Compass",
-          "b": "Protractor",
-          "c": "Ruler (Scale)",
-          "d": "French Curve"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "22. A Mini Drafter or Drafting Machine combines the functions of:",
-        "options": {
-          "a": "Compass and Divider",
-          "b": "Eraser and Sharpener",
-          "c": "T-square, Set Squares, Protractor, and Scales",
-          "d": "French Curve and Template"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "23. What is the purpose of Set Squares (e.g., 45° and 30°/60°)?",
-        "options": {
-          "a": "Drawing circles.",
-          "b": "Drawing parallel and perpendicular lines, and specific angles.",
-          "c": "Measuring curved lines.",
-          "d": "Erasing mistakes."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "24. French Curves are used for:",
-        "options": {
-          "a": "Drawing straight lines.",
-          "b": "Drawing irregular curves that are not arcs or circles.",
-          "c": "Measuring angles.",
-          "d": "Holding the paper down."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "25. A Protractor is used to:",
-        "options": {
-          "a": "Draw circles.",
-          "b": "Measure and lay out angles.",
-          "c": "Draw parallel lines.",
-          "d": "Erase lines."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "26. Drawing Pencils are graded based on the hardness/softness of their lead. Which grade represents a medium hardness?",
-        "options": {
-          "a": "6B (Soft)",
-          "b": "4H (Hard)",
-          "c": "HB",
-          "d": "F"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "27. Harder pencils (like 4H) produce lines that are:",
-        "options": {
-          "a": "Thick and dark",
-          "b": "Thin and light grey",
-          "c": "Easily smudged",
-          "d": "Best for shading"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "28. Softer pencils (like 4B) are generally preferred for:",
-        "options": {
-          "a": "Construction lines",
-          "b": "Dimensioning",
-          "c": "Lettering and creating darker, thicker lines (e.g., object lines)",
-          "d": "Precise layout work"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "29. What is the purpose of a T-Square in manual drafting on a drawing board?",
-        "options": {
-          "a": "To draw circles accurately.",
-          "b": "To serve as a horizontal guide for drawing parallel lines and guiding set squares.",
-          "c": "To measure angles.",
-          "d": "To draw freehand curves."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "30. Templates in engineering drawing are used for:",
-        "options": {
-          "a": "Erasing large areas.",
-          "b": "Quickly drawing standard shapes (circles, squares, symbols).",
-          "c": "Measuring long distances.",
-          "d": "Holding the paper flat."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "31. Adhering to drawing standards (like ISO or BIS) is important because it ensures:",
-        "options": {
-          "a": "Drawings are unique and cannot be copied.",
-          "b": "Drawings are universally understood, reducing errors and misunderstandings.",
-          "c": "Drawings take longer to create.",
-          "d": "Only specific software can open the drawings."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "32. The ISO standard designation 'ISO XXXX:YEAR' indicates:",
-        "options": {
-          "a": "The size and color of the drawing.",
-          "b": "The unique standard number (XXXX) and the year of publication (YEAR).",
-          "c": "The author and the software used.",
-          "d": "The price and copyright information."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "33. If an ISO standard is updated, what typically happens to its designation?",
-        "options": {
-          "a": "The unique number changes, but the year stays the same.",
-          "b": "Both the number and the year change completely.",
-          "c": "The number remains the same, but the YEAR changes to the new publication year.",
-          "d": "The designation is removed entirely."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "34. First-angle and Third-angle projection are standard methods for:",
-        "options": {
-          "a": "Folding drawing sheets.",
-          "b": "Arranging the different views (front, top, side) in an orthographic drawing.",
-          "c": "Grading pencil hardness.",
-          "d": "Specifying material types."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "35. The symbol indicating the projection method used is typically shown in or near the:",
-        "options": {
-          "a": "Top left corner of the sheet.",
-          "b": "Title Block.",
-          "c": "Center of the main view.",
-          "d": "Notes section only."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "36. Dimensioning standards dictate:",
-        "options": {
-          "a": "The artistic style of the numbers.",
-          "b": "How sizes and locations are clearly and unambiguously indicated on the drawing.",
-          "c": "The type of paper to be used.",
-          "d": "The software used for CAD."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "37. Tolerances specified on an engineering drawing indicate:",
-        "options": {
-          "a": "The exact required dimension with no variation allowed.",
-          "b": "The permissible range of variation for a dimension.",
-          "c": "The drawing scale.",
-          "d": "The material's color."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "38. Line types (e.g., continuous thick, continuous thin, dashed, chain thin) are standardized to represent:",
-        "options": {
-          "a": "Different colors.",
-          "b": "Different levels of importance.",
-          "c": "Different features like visible edges, hidden edges, center lines, dimension lines.",
-          "d": "The skill level of the drafter."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "39. Visible outlines of an object are typically drawn using which line type?",
-        "options": {
-          "a": "Dashed thin line",
-          "b": "Continuous thick line",
-          "c": "Chain thin line",
-          "d": "Continuous thin wavy line"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "40. Hidden features or edges are represented by which line type?",
-        "options": {
-          "a": "Continuous thick line",
-          "b": "Dashed thin or medium line",
-          "c": "Chain thin line",
-          "d": "Continuous thin line"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "41. Centre lines and lines of symmetry are typically shown using:",
-        "options": {
-          "a": "Continuous thick line",
-          "b": "Dashed line",
-          "c": "Chain thin line (long dash, short dash)",
-          "d": "Continuous thin wavy line"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "42. Dimension lines and leader lines are usually drawn as:",
-        "options": {
-          "a": "Continuous thick lines",
-          "b": "Dashed lines",
-          "c": "Chain thin lines",
-          "d": "Continuous thin lines"
-        },
-        "answer": "d"
-      },
-      {
-        "question": "43. Which BIS standard provides general principles of representation for technical product documentation (TPD)?",
-        "options": {
-          "a": "IS 10711: 2001",
-          "b": "IS 10714 (Part 1-3 & Part 71)",
-          "c": "IS 11664: 1986",
+          "b": "IS 10711:2001",
+          "c": "IS 10713:1983",
           "d": "SP 46:2003"
         },
         "answer": "b"
       },
       {
-        "question": "44. SP 46:2003 is a BIS standard specifically aimed at:",
+        "question": "25. What does the 'YEAR' component in an ISO standard designation (e.g., ISO XXXX:YEAR) represent?",
         "options": {
-          "a": "Folding of drawing prints.",
-          "b": "Engineering Drawing Practices for Schools and Colleges.",
-          "c": "Scales for use on technical drawings.",
-          "d": "Lettering techniques."
+          "a": "The year the standard expires.",
+          "b": "The year of publication or the latest update.",
+          "c": "The number of pages in the standard.",
+          "d": "The version number."
         },
         "answer": "b"
       },
       {
-        "question": "45. Lettering standards (like IS 9609) ensure:",
+        "question": "26. If an existing ISO standard is updated, what typically happens to its designation number and year?",
         "options": {
-          "a": "Artistic font variety.",
-          "b": "Text on drawings is clear, legible, and uniform.",
-          "c": "Only capital letters are used.",
-          "d": "Text is always written vertically."
+          "a": "Both the number and year change.",
+          "b": "The number changes, but the year stays the same.",
+          "c": "The number remains the same, but the YEAR changes to the new year of publication.",
+          "d": "Neither the number nor the year changes."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "27. What is the function of a 'Mini Drafter'?",
+        "options": {
+          "a": "To draw small circles.",
+          "b": "To combine the functions of T-squares, set squares, scales, and protractors for faster drafting.",
+          "c": "To sharpen pencils.",
+          "d": "To hold the drawing paper."
         },
         "answer": "b"
       },
       {
-        "question": "46. Which drawing instrument is used to divide lines into equal parts or transfer dimensions?",
+        "question": "28. A 'Divider' is primarily used for:",
         "options": {
-          "a": "Compass",
+          "a": "Drawing lines.",
+          "b": "Measuring angles.",
+          "c": "Transferring measurements or dividing lines into equal parts.",
+          "d": "Erasing mistakes."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "29. What characteristic defines an 'Artistic Drawing' according to the presentation?",
+        "options": {
+          "a": "Strict adherence to scale and dimensioning.",
+          "b": "Focus on technical accuracy above all else.",
+          "c": "Representation sketched freehand using imagination, focusing on aesthetic appeal rather than technical precision.",
+          "d": "Requires specific engineering instruments."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "30. Engineering drawings must be numerically specific and informative, whereas artistic drawings:",
+        "options": {
+          "a": "Must also be numerically specific.",
+          "b": "May not be numerically specific and informative.",
+          "c": "Focus only on dimensions.",
+          "d": "Are always abstract."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "31. Is scale maintenance necessary for artistic drawings?",
+        "options": {
+          "a": "Yes, always.",
+          "b": "No, it is not necessary.",
+          "c": "Only for large drawings.",
+          "d": "Depends on the medium used."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "32. Is scale maintenance necessary for engineering drawings?",
+        "options": {
+          "a": "No, it is optional.",
+          "b": "Yes, it is necessary.",
+          "c": "Only for architectural drawings.",
+          "d": "Only when using CAD."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "33. Which type of drawing requires specific knowledge or training to understand?",
+        "options": {
+          "a": "Artistic Drawing",
+          "b": "Engineering Drawing",
+          "c": "Both",
+          "d": "Neither"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "34. What is the purpose of using different pencil point shapes (conical, chisel, bevelled)?",
+        "options": {
+          "a": "Purely aesthetic preference.",
+          "b": "Different shapes are better suited for specific tasks like writing, drawing straight lines, or drawing circles/arcs.",
+          "c": "To indicate the hardness of the pencil.",
+          "d": "Required by different drawing standards."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "35. A conical pencil point is best suited for:",
+        "options": {
+          "a": "Drawing thick lines only.",
+          "b": "Drawing circles and arcs.",
+          "c": "Writing, dimensioning, and making arrowheads.",
+          "d": "Shading large areas."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "36. Which BIS standard deals with Lettering in technical product documentation?",
+        "options": {
+          "a": "IS 10711",
+          "b": "IS 9609",
+          "c": "IS 10714",
+          "d": "IS 11664"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "37. What is the subject of BIS standard IS 15021 (Part 1-4) 2001?",
+        "options": {
+          "a": "Scales for Use on Technical Drawings",
+          "b": "Folding of Drawing Prints",
+          "c": "Technical Drawings — Projection Methods",
+          "d": "Lettering"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "38. What does 'Projection' mean in the context of engineering drawing?",
+        "options": {
+          "a": "Guessing the dimensions.",
+          "b": "The image or drawing of an object made on a plane by drawing lines (projectors) from the object to the plane.",
+          "c": "Enlarging a small detail.",
+          "d": "Folding the drawing sheet."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "39. Which projection methods represent an object with a pictorial (3D-like) view?",
+        "options": {
+          "a": "Orthographic only",
+          "b": "Perspective, Isometric, and Oblique",
+          "c": "Front view and Top view only",
+          "d": "Multi-view projection"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "40. Oblique projection typically draws the front face in true shape and represents depth using lines at what common angle?",
+        "options": {
+          "a": "90 degrees",
+          "b": "120 degrees",
+          "c": "45 degrees",
+          "d": "30 degrees"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "41. Why is a thorough understanding of projection principles important?",
+        "options": {
+          "a": "To choose the right pencil hardness.",
+          "b": "To correctly read and interpret orthographic (multi-view) drawings.",
+          "c": "To fold the drawing sheet correctly.",
+          "d": "To select the appropriate paper size."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "42. What is the primary advantage of engineering drawings acting as a 'Universal Language'?",
+        "options": {
+          "a": "They can be understood by artists.",
+          "b": "They facilitate effective communication among designers, engineers, and manufacturers globally.",
+          "c": "They are easy to translate into different spoken languages.",
+          "d": "They eliminate the need for prototypes."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "43. What tool is used to remove pencil marks from a drawing?",
+        "options": {
+          "a": "Sand paper pad",
           "b": "Divider",
-          "c": "Protractor",
-          "d": "Scale"
+          "c": "Eraser or rubber",
+          "d": "Pencil cutter"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "44. What is the purpose of a 'T-Square' in manual drafting?",
+        "options": {
+          "a": "Drawing circles.",
+          "b": "Measuring angles.",
+          "c": "Drawing horizontal lines and serving as a base for set squares.",
+          "d": "Cutting paper."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "45. Which type of drawing is prepared using engineering instruments or computer programs, in addition to freehand?",
+        "options": {
+          "a": "Artistic drawing only",
+          "b": "Engineering drawing",
+          "c": "Both artistic and engineering drawings",
+          "d": "Neither type"
         },
         "answer": "b"
       },
       {
-        "question": "47. A drawing board provides:",
+        "question": "46. What is the main function of 'Sheet fasteners'?",
         "options": {
-          "a": "A source of light.",
-          "b": "A flat, smooth surface for attaching the drawing sheet.",
-          "c": "Software for drawing.",
-          "d": "A storage container for pencils."
+          "a": "To draw curves.",
+          "b": "To hold the drawing sheet securely to the drawing board.",
+          "c": "To measure lengths.",
+          "d": "To erase lines."
         },
         "answer": "b"
       },
       {
-        "question": "48. What is the purpose of an eraser or rubber in drafting?",
+        "question": "47. A 'Template' in drawing is used for:",
         "options": {
-          "a": "To draw thick lines.",
-          "b": "To remove unwanted lines or mistakes cleanly.",
-          "c": "To blend shaded areas.",
-          "d": "To hold the paper down."
+          "a": "Erasing.",
+          "b": "Drawing standard shapes (circles, squares, symbols) quickly and accurately.",
+          "c": "Measuring angles.",
+          "d": "Holding the paper."
         },
         "answer": "b"
       },
       {
-        "question": "49. Sheet fasteners (like drafting tape or clips) are used to:",
+        "question": "48. What is the role of a 'Sand paper pad' among drawing instruments?",
         "options": {
-          "a": "Draw circles.",
-          "b": "Secure the drawing sheet to the drawing board.",
-          "c": "Measure angles.",
-          "d": "Erase lines."
+          "a": "To smooth the drawing paper.",
+          "b": "To sharpen the pencil lead to a desired point.",
+          "c": "To clean the drawing.",
+          "d": "To measure curves."
         },
         "answer": "b"
       },
       {
-        "question": "50. The overall goal of using standardized instruments and practices in engineering drawing is to achieve:",
+        "question": "49. What is the key characteristic of an engineering drawing regarding information conveyance?",
         "options": {
-          "a": "Speed at the expense of clarity.",
-          "b": "Artistic beauty.",
-          "c": "Clarity, accuracy, and unambiguous communication.",
-          "d": "Minimal use of paper."
+          "a": "It conveys emotion.",
+          "b": "It conveys information vaguely.",
+          "c": "It conveys clear, accurate, and detailed information about an engineered item.",
+          "d": "It conveys only the external appearance."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "50. Which drawing standard body is specifically mentioned for India?",
+        "options": {
+          "a": "ISO",
+          "b": "ANSI",
+          "c": "BIS",
+          "d": "JIS"
         },
         "answer": "c"
       }
@@ -519,682 +518,652 @@ export const edpQuestions = {
         "answer": "b"
       },
       {
-        "question": "2. 'Tensile Strength' refers to a material's ability to:",
+        "question": "2. Which property refers to a material's ability to withstand mechanical stress and impacts?",
         "options": {
-          "a": "Resist scratching.",
-          "b": "Withstand being pulled apart before breaking.",
-          "c": "Conduct heat.",
-          "d": "Bend easily."
+          "a": "Thermal Conductivity",
+          "b": "Strength and Durability",
+          "c": "Opacity",
+          "d": "Elastic Modulus"
         },
         "answer": "b"
       },
       {
-        "question": "3. 'Flexibility' or 'Elongation' describes a material's ability to:",
+        "question": "3. 'Elastic Modulus' is a measure of a material's:",
+        "options": {
+          "a": "Resistance to heat",
+          "b": "Resistance to breaking when stretched",
+          "c": "Resistance to elastic deformation under stress (Stiffness)",
+          "d": "Ability to conduct electricity"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "4. What does 'Elongation' measure?",
+        "options": {
+          "a": "How heavy the material is.",
+          "b": "How well it conducts heat.",
+          "c": "Its resistance to breaking when stretched.",
+          "d": "Its resistance to corrosion."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "5. 'Impact Strength' or 'Toughness' refers to a material's ability to:",
         "options": {
           "a": "Resist high temperatures.",
-          "b": "Conduct electricity.",
-          "c": "Bend or stretch without breaking.",
-          "d": "Absorb shock."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "4. 'Thermal Conductivity' is a measure of a material's ability to:",
-        "options": {
-          "a": "Transfer heat.",
-          "b": "Resist electrical current.",
-          "c": "Withstand impact.",
-          "d": "Be easily machined."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "5. 'Hardness' typically refers to a material's resistance to:",
-        "options": {
-          "a": "Bending.",
-          "b": "Melting.",
-          "c": "Scratching or indentation.",
-          "d": "Corrosion."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "6. 'Elastic Modulus' (Young's Modulus) measures a material's:",
-        "options": {
-          "a": "Density.",
-          "b": "Stiffness, or resistance to elastic deformation.",
-          "c": "Melting point.",
-          "d": "Electrical conductivity."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "7. 'Impact Strength' or 'Toughness' relates to a material's ability to:",
-        "options": {
-          "a": "Deform under long-term stress (creep).",
-          "b": "Absorb energy and shock without fracturing.",
-          "c": "Resist UV degradation.",
+          "b": "Absorb shock and impact energy without breaking.",
+          "c": "Be easily machined.",
           "d": "Be transparent."
         },
         "answer": "b"
       },
       {
-        "question": "8. 'Heat Deflection Temperature' (HDT) indicates the temperature at which a material:",
+        "question": "6. What is 'Heat Deflection Temperature (HDT)'?",
         "options": {
-          "a": "Melts completely.",
-          "b": "Begins to deform under a specific load.",
-          "c": "Becomes electrically conductive.",
-          "d": "Changes color permanently."
+          "a": "The temperature at which a material melts.",
+          "b": "The temperature at which a material deforms under a specified load.",
+          "c": "The maximum temperature a material can reach.",
+          "d": "The temperature required for welding."
         },
         "answer": "b"
       },
       {
-        "question": "9. 'Creep' is the tendency of a material to:",
+        "question": "7. 'Creep' describes a material's tendency to:",
         "options": {
           "a": "Break suddenly under impact.",
-          "b": "Slowly deform permanently under constant stress, especially at high temperatures.",
-          "c": "Resist chemical reactions.",
-          "d": "Become brittle when cold."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "10. 'Chemical Resistance' is important for prototypes that will be:",
-        "options": {
-          "a": "Exposed to sunlight.",
-          "b": "Used in structural applications only.",
-          "c": "Exposed to specific chemicals, solvents, or corrosive environments.",
-          "d": "Subjected to high impacts."
+          "b": "Resist UV radiation.",
+          "c": "Move slowly or deform permanently under long-term mechanical stress.",
+          "d": "Conduct electricity."
         },
         "answer": "c"
       },
       {
-        "question": "11. 'UV Resistance' is crucial for materials used in prototypes intended for:",
+        "question": "8. Why is 'Thermal Conductivity' an important material property for some prototypes?",
         "options": {
-          "a": "Indoor use only.",
-          "b": "Underwater applications.",
-          "c": "Applications involving exposure to sunlight.",
-          "d": "High-temperature environments."
+          "a": "It determines the material's color.",
+          "b": "It affects the prototype's weight.",
+          "c": "It's essential if the prototype needs to manage heat or cold.",
+          "d": "It relates to the material's stiffness."
         },
         "answer": "c"
       },
       {
-        "question": "12. When prototyping electronic devices, which material properties are often critical?",
+        "question": "9. 'Chemical Resistance' is a vital property when:",
         "options": {
-          "a": "Only color and weight.",
-          "b": "Only strength and hardness.",
-          "c": "Electrical conductivity or insulating properties.",
-          "d": "Magnetic properties only."
+          "a": "The prototype needs to be lightweight.",
+          "b": "The prototype will be exposed to specific chemicals or corrosive environments.",
+          "c": "The prototype requires high stiffness.",
+          "d": "The prototype needs to be transparent."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "10. Which prototyping material category includes ABS, PLA, and Polycarbonate?",
+        "options": {
+          "a": "Metals",
+          "b": "Ceramics",
+          "c": "Plastics",
+          "d": "Wood Composites"
         },
         "answer": "c"
       },
       {
-        "question": "13. The 'Ease of Machining' refers to how easily a material can be:",
+        "question": "11. Which plastic is noted as being biodegradable and easy to 3D print, ideal for concept models?",
         "options": {
-          "a": "Melted and poured.",
-          "b": "Shaped, cut, drilled, or milled.",
-          "c": "Stretched without breaking.",
-          "d": "Glued together."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "14. Why might 'Weight' be a critical material property in aerospace or automotive prototypes?",
-        "options": {
-          "a": "Heavier materials are always stronger.",
-          "b": "Lighter materials can improve fuel efficiency and performance.",
-          "c": "Weight affects the color of the prototype.",
-          "d": "Only heavy materials can be used in these industries."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "15. Choosing sustainable or recyclable materials for prototyping aligns with:",
-        "options": {
-          "a": "Increasing the prototype's weight.",
-          "b": "Environmental consciousness and eco-friendliness goals.",
-          "c": "Making the prototype harder to machine.",
-          "d": "Reducing the prototype's strength."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "16. Wood is often used in prototyping for:",
-        "options": {
-          "a": "High-temperature applications.",
-          "b": "Creating initial form models, mock-ups, and certain functional prototypes due to its workability.",
-          "c": "Applications requiring high electrical conductivity.",
-          "d": "Prototypes needing extreme flexibility."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "17. Common metals used in prototyping like aluminum, steel, and titanium are chosen for their:",
-        "options": {
-          "a": "Low cost and flexibility.",
-          "b": "Strength, durability, and ability to simulate final metal parts.",
-          "c": "Ease of melting at low temperatures.",
-          "d": "Electrical insulating properties."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "18. Aluminum is often favored in prototyping for its:",
-        "options": {
-          "a": "High density and low strength.",
-          "b": "Good strength-to-weight ratio, corrosion resistance, and machinability.",
-          "c": "Magnetic properties.",
-          "d": "Low melting point compared to plastics."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "19. Steel is typically used when the prototype requires:",
-        "options": {
-          "a": "Light weight and flexibility.",
-          "b": "High strength, hardness, and durability.",
-          "c": "Electrical insulation.",
-          "d": "Transparency."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "20. Titanium is often selected for prototypes needing:",
-        "options": {
-          "a": "Low cost and easy machining.",
-          "b": "High strength-to-weight ratio, excellent corrosion resistance, and biocompatibility (for medical).",
-          "c": "High electrical conductivity.",
-          "d": "Softness and flexibility."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "21. Metal cutting processes aim to:",
-        "options": {
-          "a": "Join metal pieces together.",
-          "b": "Remove material to shape or separate metal parts.",
-          "c": "Bend metal sheets.",
-          "d": "Polish metal surfaces."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "22. Drilling in metalworking is specifically used to:",
-        "options": {
-          "a": "Create threads for screws.",
-          "b": "Create circular holes.",
-          "c": "Smooth flat surfaces.",
-          "d": "Cut metal sheets along a line."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "23. Machining (like milling or turning) involves:",
-        "options": {
-          "a": "Using heat to fuse metals.",
-          "b": "Using cutting tools to remove material and achieve a desired shape and precision.",
-          "c": "Using adhesives to join parts.",
-          "d": "Using molds to cast metal."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "24. Welding is a process primarily used for:",
-        "options": {
-          "a": "Cutting metals precisely.",
-          "b": "Joining metal (or thermoplastic) parts permanently using heat and/or pressure.",
-          "c": "Drilling holes.",
-          "d": "Bending metal rods."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "25. Arc welding uses what to generate the heat needed for fusion?",
-        "options": {
-          "a": "Chemical reaction",
-          "b": "Mechanical friction",
-          "c": "An electric arc between an electrode and the base material",
-          "d": "A high-powered laser beam"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "26. Friction welding generates heat through:",
-        "options": {
-          "a": "An electric current.",
-          "b": "A laser beam.",
-          "c": "Burning gas.",
-          "d": "Mechanical friction between rotating or moving parts."
+          "a": "ABS",
+          "b": "Polycarbonate",
+          "c": "Acrylic",
+          "d": "PLA"
         },
         "answer": "d"
       },
       {
-        "question": "27. Resistance welding joins metals by:",
+        "question": "12. Metals like aluminum, steel, and titanium are often chosen for prototypes primarily due to their:",
         "options": {
-          "a": "Using a filler metal.",
-          "b": "Applying pressure and passing a strong electric current through localized points.",
-          "c": "Using an electron beam.",
-          "d": "Melting the entire parts together in a furnace."
+          "a": "Low cost and flexibility",
+          "b": "Strength and durability",
+          "c": "Transparency",
+          "d": "Ease of painting"
         },
         "answer": "b"
       },
       {
-        "question": "28. Sheet metal fabrication techniques include:",
+        "question": "13. Rubber and Silicone are ideal prototyping materials for applications involving:",
         "options": {
-          "a": "Only welding.",
-          "b": "Only casting.",
-          "c": "Cutting, bending, forming, and joining flat metal sheets.",
-          "d": "Only 3D printing."
+          "a": "High stiffness and rigidity",
+          "b": "Seals, gaskets, or flexible components requiring elasticity",
+          "c": "High-temperature resistance like ceramics",
+          "d": "Electrical conductivity"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "14. Ceramics are typically chosen for prototypes that require:",
+        "options": {
+          "a": "Flexibility and low weight",
+          "b": "High-temperature resistance and electrical insulation",
+          "c": "Easy machining like wax",
+          "d": "Biodegradability"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "15. What are Bioplastics made from?",
+        "options": {
+          "a": "Petroleum products",
+          "b": "Recycled metals",
+          "c": "Renewable sources like cornstarch or sugarcane",
+          "d": "Synthetic rubber compounds"
         },
         "answer": "c"
       },
       {
-        "question": "29. Bending is a sheet metal process used to:",
+        "question": "16. Polyurethane Resins are noted for their ability to:",
         "options": {
-          "a": "Cut sheets into smaller pieces.",
-          "b": "Create angles or curves in the sheet metal.",
-          "c": "Drill holes in the sheet.",
-          "d": "Join two sheets together."
+          "a": "Withstand extremely high temperatures like ceramics.",
+          "b": "Mimic a wide range of materials and capture intricate details.",
+          "c": "Be easily biodegradable like PLA.",
+          "d": "Offer the highest strength like titanium."
         },
         "answer": "b"
       },
       {
-        "question": "30. Punching in sheet metal fabrication is used to:",
+        "question": "17. Foam materials (foam board, foam core) are best suited for which type of prototypes?",
         "options": {
-          "a": "Create holes or specific shapes by shearing.",
-          "b": "Bend the metal.",
-          "c": "Weld the metal.",
-          "d": "Smooth the surface."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "31. Rolling (in metalworking) is a process used to:",
-        "options": {
-          "a": "Create threads.",
-          "b": "Reduce the thickness or impart a shape to metal by passing it between rollers.",
-          "c": "Cut intricate patterns.",
-          "d": "Join pipes together."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "32. Riveting is a method for:",
-        "options": {
-          "a": "Welding thin sheets.",
-          "b": "Joining parts (often sheet metal) together using a metal fastener called a rivet.",
-          "c": "Cutting metal with a laser.",
-          "d": "Bending metal rods."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "33. Plastics like ABS, PLA, and Polycarbonate are types of:",
-        "options": {
-          "a": "Metals",
-          "b": "Ceramics",
-          "c": "Thermoplastic polymers",
-          "d": "Elastomers"
+          "a": "High-strength functional parts",
+          "b": "Prototypes requiring high heat resistance",
+          "c": "Lightweight architectural models, packaging mockups, and visual displays",
+          "d": "Electrically conductive components"
         },
         "answer": "c"
       },
       {
-        "question": "34. ABS plastic is often chosen for functional prototypes due to its:",
+        "question": "18. What is the main advantage of using Machinable Wax for prototyping?",
         "options": {
-          "a": "Biodegradability and low strength.",
-          "b": "Transparency and brittleness.",
-          "c": "Durability, toughness, and impact resistance.",
-          "d": "High flexibility and softness."
+          "a": "High strength and durability",
+          "b": "Ease of machining for creating intricate details and complex geometries",
+          "c": "Excellent heat resistance",
+          "d": "Flexibility like rubber"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "19. Acrylic Glass (Plexiglass) is often used when a prototype requires:",
+        "options": {
+          "a": "High flexibility",
+          "b": "Electrical insulation",
+          "c": "Transparency and visual appeal",
+          "d": "Biodegradability"
         },
         "answer": "c"
       },
       {
-        "question": "35. PLA plastic is known for being:",
+        "question": "20. Paper and Cardboard are valuable prototyping materials primarily because they are:",
         "options": {
-          "a": "Very strong and heat resistant.",
-          "b": "Biodegradable (under specific conditions) and relatively easy to 3D print, often used for concept models.",
-          "c": "Highly flexible like rubber.",
-          "d": "Electrically conductive."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "36. Polycarbonate is suitable for robust prototypes primarily because of its:",
-        "options": {
-          "a": "Low cost and flexibility.",
-          "b": "High strength, impact resistance, and temperature resistance.",
-          "c": "Ease of biodegradation.",
-          "d": "Soft texture."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "37. Acrylic (PMMA or Plexiglass) is often used for visual prototypes and displays because it is:",
-        "options": {
-          "a": "Stronger than steel.",
-          "b": "Opaque and flexible.",
-          "c": "Transparent, rigid, and visually appealing.",
-          "d": "A good electrical conductor."
+          "a": "Extremely durable and heat resistant",
+          "b": "Suitable for high-precision functional parts",
+          "c": "Economical, accessible, and versatile for quick, low-cost mock-ups",
+          "d": "Good electrical conductors"
         },
         "answer": "c"
       },
       {
-        "question": "38. Resins, such as polyurethane or epoxy, are often used in prototyping for:",
+        "question": "21. Which basic metalworking technique involves removing material using a rotating cutter?",
         "options": {
-          "a": "High-strength structural parts only.",
-          "b": "Model-making, visual prototypes, casting, and simulating various material properties (rigid to flexible).",
-          "c": "Applications requiring high electrical conductivity.",
-          "d": "Creating biodegradable parts."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "39. Polyurethane resins are versatile because they can:",
-        "options": {
-          "a": "Only form hard, brittle parts.",
-          "b": "Mimic a wide range of properties from rigid to flexible and replicate appearances.",
-          "c": "Withstand extremely high temperatures like ceramics.",
-          "d": "Only be used for 3D printing."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "40. Silicone and rubber are ideal for prototypes involving:",
-        "options": {
-          "a": "Rigid structural components.",
-          "b": "Seals, gaskets, flexible parts, or components needing shock absorption.",
-          "c": "High-temperature insulation like ceramics.",
-          "d": "Sharp cutting edges."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "41. Fused Deposition Modeling (FDM) typically uses which form of material?",
-        "options": {
-          "a": "Liquid resin",
-          "b": "Powdered material",
-          "c": "Thermoplastic filament",
-          "d": "Sheet material"
+          "a": "Welding",
+          "b": "Drilling",
+          "c": "Milling",
+          "d": "Bending"
         },
         "answer": "c"
       },
       {
-        "question": "42. Stereolithography (SLA) uses which form of material?",
+        "question": "22. What is the purpose of Drilling in metalworking?",
         "options": {
-          "a": "Thermoplastic filament",
-          "b": "Powdered metal",
+          "a": "To join two pieces of metal.",
+          "b": "To create a circular hole in solid materials.",
+          "c": "To bend the metal sheet.",
+          "d": "To smooth the surface."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "23. Welding is a process used primarily for:",
+        "options": {
+          "a": "Cutting metal",
+          "b": "Joining two or more parts together using heat, pressure, or both",
+          "c": "Creating holes",
+          "d": "Smoothing surfaces"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "24. Sheet metal fabrication involves creating products from:",
+        "options": {
+          "a": "Molten metal",
+          "b": "Metal powders",
+          "c": "Flat metal sheets",
+          "d": "Metal wires"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "25. Which of the following is a common technique used in sheet metal fabrication for *forming*?",
+        "options": {
+          "a": "Laser Cutting",
+          "b": "Welding",
+          "c": "Bending",
+          "d": "Punching"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "26. Fused Deposition Modeling (FDM) is a 3D printing technology that works by:",
+        "options": {
+          "a": "Curing liquid resin with UV light.",
+          "b": "Sintering powdered material with a laser.",
+          "c": "Extruding and selectively depositing melted thermoplastic filament layer by layer.",
+          "d": "Bonding layers of sheet material together."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "27. What type of material is typically used in FDM?",
+        "options": {
+          "a": "Liquid photopolymer resins",
+          "b": "Metal powders",
+          "c": "Thermoplastic polymers in filament form",
+          "d": "Ceramic slurry"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "28. Stereolithography (SLA) uses what to create solid objects?",
+        "options": {
+          "a": "Heated extrusion nozzle",
+          "b": "Ultraviolet (UV) light to photo-polymerize liquid resins",
+          "c": "A high-powered laser to sinter powder",
+          "d": "A cutting tool on a rotating workpiece"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "29. What is the state of the material used in SLA before it is solidified?",
+        "options": {
+          "a": "Solid filament",
+          "b": "Powder",
           "c": "Liquid photopolymer resin",
-          "d": "Ceramic paste"
+          "d": "Flat sheet"
         },
         "answer": "c"
       },
       {
-        "question": "43. A fundamental health and safety rule when operating machinery in a workshop is:",
+        "question": "30. What is a fundamental aspect of health and safety in an engineering workshop?",
         "options": {
-          "a": "To remove safety guards for better visibility.",
-          "b": "To know how to operate the machine safely, including emergency stops, before use.",
-          "c": "To wear loose clothing and jewelry.",
-          "d": "To work alone without supervision when learning."
+          "a": "Using tools as quickly as possible.",
+          "b": "Wearing appropriate Personal Protective Equipment (PPE).",
+          "c": "Keeping the workshop dimly lit.",
+          "d": "Ignoring machine safety guards."
         },
         "answer": "b"
       },
       {
-        "question": "44. Proper ventilation is important in a workshop, especially when working with:",
+        "question": "31. Why is it important to consider the 'Ease of Machining' when selecting a prototype material?",
         "options": {
-          "a": "Water only.",
-          "b": "Materials that produce dust, fumes, or vapors (e.g., sanding wood, using solvents, welding).",
-          "c": "Solid metal blocks only.",
-          "d": "Computer monitors."
+          "a": "It affects the final color.",
+          "b": "It determines how easily the material can be shaped, cut, or molded.",
+          "c": "It relates to the material's weight.",
+          "d": "It impacts the material's electrical conductivity."
         },
         "answer": "b"
       },
       {
-        "question": "45. What does PPE stand for in a workshop context?",
+        "question": "32. 'Availability and Recyclability' are important considerations for material selection, especially concerning:",
         "options": {
-          "a": "Product Prototype Engineering",
-          "b": "Personal Protective Equipment",
-          "c": "Polymer Processing Equipment",
-          "d": "Precision Planning Estimate"
+          "a": "Only the prototype's strength",
+          "b": "Project logistics and sustainability goals",
+          "c": "The prototype's color",
+          "d": "The prototype's electrical properties"
         },
         "answer": "b"
       },
       {
-        "question": "46. Examples of common PPE used in workshops include:",
+        "question": "33. Which metalworking process uses a cutting tool moving linearly while the workpiece rotates?",
         "options": {
-          "a": "Office chairs and desks.",
-          "b": "Safety glasses, gloves, hearing protection, dust masks/respirators.",
-          "c": "CAD software and computers.",
-          "d": "Coffee machines and water coolers."
+          "a": "Milling",
+          "b": "Drilling",
+          "c": "Turning",
+          "d": "Grinding"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "34. Grinding in metalworking is primarily used for:",
+        "options": {
+          "a": "Joining metal parts.",
+          "b": "Creating a specific shape or finish using an abrasive disk or belt.",
+          "c": "Drilling large holes.",
+          "d": "Bending sheet metal."
         },
         "answer": "b"
       },
       {
-        "question": "47. Before using any power tool or machine, it's essential to:",
+        "question": "35. What does CNC stand for in the context of machining?",
         "options": {
-          "a": "Ensure it is unplugged while making adjustments or changing bits/blades.",
-          "b": "Check that it is running at maximum speed.",
-          "c": "Remove all safety labels.",
-          "d": "Make sure the power cord is frayed."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "48. Good housekeeping in a workshop (keeping floors clear, tools stored) helps prevent:",
-        "options": {
-          "a": "Faster work completion.",
-          "b": "Slips, trips, falls, and other accidents.",
-          "c": "The need for PPE.",
-          "d": "Material wastage."
+          "a": "Computer Network Control",
+          "b": "Computer Numerical Control",
+          "c": "Centralized Network Computing",
+          "d": "Custom Numerical Cutting"
         },
         "answer": "b"
       },
       {
-        "question": "49. Material Safety Data Sheets (MSDS) or Safety Data Sheets (SDS) provide information about:",
+        "question": "36. What is the 'Heat Affected Zone (HAZ)' in welding?",
         "options": {
-          "a": "The cost of materials.",
-          "b": "The potential hazards of chemicals or materials and safe handling procedures.",
-          "c": "The design history of a product.",
-          "d": "The warranty of a tool."
+          "a": "The molten weld metal itself.",
+          "b": "The part of the parent metal affected by heat but not melted.",
+          "c": "The filler material added.",
+          "d": "The area furthest from the weld."
         },
         "answer": "b"
       },
       {
-        "question": "50. If unsure about the safe operation of a tool or process, one should:",
+        "question": "37. Which 3D printing technology uses a high-powered laser to sinter powdered material?",
         "options": {
-          "a": "Try it anyway and learn by trial and error.",
-          "b": "Ask a supervisor or experienced colleague for guidance or training.",
-          "c": "Search for a quick video online and assume it's correct.",
-          "d": "Avoid that part of the project."
+          "a": "FDM",
+          "b": "SLA",
+          "c": "SLS (Selective Laser Sintering)",
+          "d": "LOM (Laminated Object Manufacturing)"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "38. Laminated Object Manufacturing (LOM) builds objects by:",
+        "options": {
+          "a": "Extruding plastic filament.",
+          "b": "Curing liquid resin.",
+          "c": "Laying down and bonding layers of sheet material.",
+          "d": "Sintering metal powder."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "39. What is the primary function of 'Filler Metal' in some welding processes?",
+        "options": {
+          "a": "To cool the weld.",
+          "b": "To clean the parent metal.",
+          "c": "Metal added during the process to help form the joint.",
+          "d": "To insulate the weld area."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "40. Which type of welding uses an electric arc to create heat?",
+        "options": {
+          "a": "Friction Welding",
+          "b": "Arc Welding",
+          "c": "Laser Beam Welding",
+          "d": "Resistance Welding"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "41. Friction welding generates heat through:",
+        "options": {
+          "a": "Electric current",
+          "b": "Laser beam",
+          "c": "Electron beam",
+          "d": "Mechanical friction"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "42. Resistance welding joins metals by applying pressure and passing what through localized points?",
+        "options": {
+          "a": "Cooling fluid",
+          "b": "A strong electric current",
+          "c": "Laser light",
+          "d": "Abrasive powder"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "43. Soldering differs from welding in that it:",
+        "options": {
+          "a": "Uses much higher temperatures.",
+          "b": "Joins metals using a filler metal (solder) that melts at a lower temperature than the base metals.",
+          "c": "Does not use any filler metal.",
+          "d": "Only works on plastics."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "44. Riveting is a joining process that uses:",
+        "options": {
+          "a": "Heat and melting",
+          "b": "Adhesives",
+          "c": "A metal part (rivet) passed through adjacent surfaces",
+          "d": "Electric current"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "45. Which sheet metal cutting method uses a high-pressure stream of water, often mixed with abrasives?",
+        "options": {
+          "a": "Laser Cutting",
+          "b": "Plasma Cutting",
+          "c": "Waterjet Cutting",
+          "d": "Sawing"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "46. 'Hemming' in sheet metal fabrication involves:",
+        "options": {
+          "a": "Cutting a hole.",
+          "b": "Welding two sheets edge-to-edge.",
+          "c": "Rolling an edge over onto itself to form two layers.",
+          "d": "Drilling a series of small holes."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "47. Why is realistic representation important in prototyping?",
+        "options": {
+          "a": "It makes the prototype heavier.",
+          "b": "It helps in user testing, market research, and investor presentations.",
+          "c": "It is only important for artistic models.",
+          "d": "It increases manufacturing time."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "48. How can choosing appropriate prototype materials help in cost management?",
+        "options": {
+          "a": "By always choosing the most expensive material.",
+          "b": "By using materials that require more processing.",
+          "c": "By using materials mirroring the final product, reducing revisions and iterations.",
+          "d": "By making the prototype non-functional."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "49. What does 'Prototype Manufacturability' refer to?",
+        "options": {
+          "a": "How easy it is to manufacture the prototype itself.",
+          "b": "Ensuring the prototype material and manufacturing process align with the intended final product's manufacturing.",
+          "c": "The number of prototypes that can be made.",
+          "d": "The cost of manufacturing the prototype."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "50. Why is considering 'User Experience' important when selecting materials for consumer product prototypes?",
+        "options": {
+          "a": "It determines the product's strength.",
+          "b": "Tactile qualities, ergonomics, and feel influence user preferences and feedback.",
+          "c": "It only matters for industrial products.",
+          "d": "It affects the electrical insulation."
         },
         "answer": "b"
       }
     ]
   },
   module3: {
-    name: "Module 3: Wood and Bamboo as Sustainable Prototyping Material",
+    name: "Module 3: Wood and Bamboo as a Sustainable Prototyping Material",
     questions: [
       {
-        "question": "1. Wood and Bamboo are considered sustainable materials primarily because they are:",
+        "question": "1. Why are wood and bamboo considered sustainable prototyping materials?",
         "options": {
-          "a": "Non-renewable and scarce.",
-          "b": "Derived from metals.",
-          "c": "Renewable resources that can be regrown.",
-          "d": "Difficult to work with."
+          "a": "They are the strongest materials available.",
+          "b": "They are non-renewable and rare.",
+          "c": "Wood is biodegradable, and bamboo grows rapidly and regenerates.",
+          "d": "They require complex, energy-intensive processing."
         },
         "answer": "c"
       },
       {
-        "question": "2. A key environmental benefit of using wood compared to plastics or metals can be:",
+        "question": "2. What are Engineered Wood Products (EWPs)?",
         "options": {
-          "a": "Higher energy consumption during processing.",
-          "b": "Carbon sequestration (storing carbon) during growth.",
-          "c": "Non-biodegradability.",
-          "d": "Increased pollution during manufacturing."
+          "a": "Naturally occurring rare wood types.",
+          "b": "Composite materials made by combining wood fibers/components with adhesives.",
+          "c": "Solid wood treated with special chemicals.",
+          "d": "Plastic materials designed to look like wood."
         },
         "answer": "b"
       },
       {
-        "question": "3. Bamboo is noted for its sustainability due to its:",
+        "question": "3. Which EWP is made of thin layers of wood veneer glued together with adjacent layers rotated?",
         "options": {
-          "a": "Slow growth rate.",
-          "b": "Need for extensive fertilizers.",
-          "c": "Rapid growth rate and ability to regenerate without replanting.",
-          "d": "Requirement for large amounts of water."
+          "a": "Particle Board",
+          "b": "MDF (Medium Density Fiberboard)",
+          "c": "Plywood",
+          "d": "Solid Wood"
         },
         "answer": "c"
       },
       {
-        "question": "4. From a prototyping perspective, wood offers good:",
+        "question": "4. What is Particle Board (Chipboard) made from?",
         "options": {
-          "a": "Electrical conductivity.",
-          "b": "Workability (ease of cutting, shaping, joining).",
-          "c": "Transparency.",
-          "d": "Resistance to very high temperatures."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "5. Using locally sourced wood or bamboo can contribute to sustainability by:",
-        "options": {
-          "a": "Increasing transportation distances.",
-          "b": "Reducing transportation emissions and supporting local economies.",
-          "c": "Making the material more expensive.",
-          "d": "Requiring more complex processing."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "6. Plywood is an engineered wood product made by:",
-        "options": {
-          "a": "Compressing wood fibers with resin.",
-          "b": "Gluing thin layers (veneers) of wood together with the grain direction alternating.",
-          "c": "Mixing wood particles with adhesive.",
-          "d": "Slicing solid timber into boards."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "7. A primary advantage of plywood over solid wood is:",
-        "options": {
-          "a": "Lower strength.",
-          "b": "Greater dimensional stability (less prone to warping) and uniform strength.",
-          "c": "Natural wood grain appearance on the edges.",
-          "d": "Higher water resistance without treatment."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "8. MDF (Medium-Density Fibreboard) is made by:",
-        "options": {
-          "a": "Gluing large wood chips together.",
-          "b": "Layering thin wood veneers.",
-          "c": "Breaking down wood into fine fibers, mixing with wax and resin, and pressing into panels.",
-          "d": "Weaving bamboo strips together."
+          "a": "Thin wood veneers",
+          "b": "Wood fibers, resin, and wax",
+          "c": "Wood chips bonded with resin and binders",
+          "d": "Solid planks of wood"
         },
         "answer": "c"
       },
       {
-        "question": "9. MDF is often used in applications like furniture and cabinetry because it has:",
+        "question": "5. MDF (Medium-Density Fiberboard) is known for its:",
         "options": {
-          "a": "A prominent natural wood grain.",
-          "b": "High resistance to moisture.",
-          "c": "A very smooth, uniform surface ideal for painting or veneering.",
-          "d": "High structural strength for load-bearing beams."
+          "a": "Natural wood grain appearance",
+          "b": "High resistance to water",
+          "c": "Smooth surface, durability, and ease of finishing/customization",
+          "d": "Low strength compared to particle board"
         },
         "answer": "c"
       },
       {
-        "question": "10. Particle Board (Chipboard) is manufactured by:",
+        "question": "6. Which EWP is generally considered the least strong and least resistant to moisture?",
         "options": {
-          "a": "Using only wood fibers.",
-          "b": "Compressing wood particles (chips, shavings) with an adhesive.",
-          "c": "Gluing solid wood planks edge-to-edge.",
-          "d": "Layering wood veneers like plywood."
+          "a": "Plywood",
+          "b": "MDF",
+          "c": "Particle Board",
+          "d": "Solid Hardwood"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "7. Plywood is commonly used in construction for:",
+        "options": {
+          "a": "Decorative molding only",
+          "b": "Sheathing walls, roofing, subfloors, and concrete formwork",
+          "c": "Soundproofing",
+          "d": "Speaker boxes"
         },
         "answer": "b"
       },
       {
-        "question": "11. Compared to MDF and Plywood, Particle Board is generally:",
+        "question": "8. MDF is a popular choice for:",
         "options": {
-          "a": "Stronger and more moisture resistant.",
-          "b": "More expensive.",
-          "c": "Less expensive but also less strong and less moisture resistant.",
-          "d": "More flexible."
+          "a": "Structural beams",
+          "b": "Outdoor decking",
+          "c": "Furniture components (tables, shelves), cabinetry, and interior doors/molding",
+          "d": "Boat construction"
         },
         "answer": "c"
       },
       {
-        "question": "12. Common applications for engineered wood products like Plywood, MDF, and Particle Board in prototyping include:",
+        "question": "9. Particle board is often used as:",
         "options": {
-          "a": "Creating high-heat resistant components.",
-          "b": "Building mock-ups, jigs, fixtures, and structural elements of prototypes.",
-          "c": "Making flexible seals and gaskets.",
-          "d": "Prototyping electronic circuit boards."
+          "a": "High-end furniture surfaces",
+          "b": "Marine applications",
+          "c": "Underlayment for flooring, inexpensive furniture components, and temporary structures",
+          "d": "Exterior siding"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "10. Which carpentry tool is used for marking and testing right angles?",
+        "options": {
+          "a": "Marking Gauge",
+          "b": "Try Square / Carpenter's Square",
+          "c": "Rule / Ruler",
+          "d": "Compass Saw"
         },
         "answer": "b"
       },
       {
-        "question": "13. Which tool is used to mark lines parallel to an edge of a piece of wood?",
+        "question": "11. What is the primary function of a Marking Gauge?",
         "options": {
-          "a": "Try Square",
-          "b": "Marking Gauge or Mortise Gauge",
-          "c": "Compass",
-          "d": "Protractor"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "14. A Mortise Gauge differs from a standard Marking Gauge by having:",
-        "options": {
-          "a": "A curved blade.",
-          "b": "A digital readout.",
-          "c": "Two marking spurs (pins) to mark parallel lines simultaneously for mortise and tenon joints.",
-          "d": "A built-in level."
+          "a": "To measure angles",
+          "b": "To cut wood",
+          "c": "To mark lines parallel to the edge of a piece of wood",
+          "d": "To smooth wood surfaces"
         },
         "answer": "c"
       },
       {
-        "question": "15. The primary function of a Try Square is:",
+        "question": "12. A Mortise Gauge is different from a Marking Gauge because it has:",
         "options": {
-          "a": "Marking circles.",
-          "b": "Measuring long distances.",
-          "c": "Marking and checking 90-degree angles.",
-          "d": "Smoothing wood surfaces."
+          "a": "A longer blade",
+          "b": "A metal head",
+          "c": "Two marking points (one adjustable) for marking parallel lines",
+          "d": "A built-in level"
         },
         "answer": "c"
       },
       {
-        "question": "16. Which type of saw is best suited for cutting intricate curves and shapes in thin wood?",
+        "question": "13. Which type of saw is specifically designed for cutting wood *along* its grains?",
         "options": {
-          "a": "Rip Saw",
-          "b": "Hand Saw (Crosscut)",
-          "c": "Coping Saw (or Jigsaw if powered)",
-          "d": "Back Saw"
+          "a": "Coping Saw",
+          "b": "Compass Saw",
+          "c": "Rip Saw",
+          "d": "Crosscut Saw (Implied opposite of Rip Saw)"
         },
         "answer": "c"
       },
       {
-        "question": "17. A Crosscut Saw is designed to cut:",
+        "question": "14. A Coping Saw, with its very thin blade in a frame, is used for:",
         "options": {
-          "a": "Along the wood grain.",
-          "b": "Across the wood grain.",
-          "c": "Metal only.",
-          "d": "Curves only."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "18. A Chisel is used for:",
-        "options": {
-          "a": "Drilling holes.",
-          "b": "Smoothing surfaces like a plane.",
-          "c": "Cutting, shaping, or paring wood, often struck with a mallet.",
-          "d": "Measuring angles."
+          "a": "Cutting thick logs",
+          "b": "Making long straight cuts",
+          "c": "Cutting curves, roundlings, and special shapes",
+          "d": "Planing wood smooth"
         },
         "answer": "c"
       },
       {
-        "question": "19. What is the typical angle for sharpening a general-purpose wood chisel?",
+        "question": "15. What is a key feature of a Compass Saw that allows it to start cuts in small holes and cut sharp curves?",
+        "options": {
+          "a": "A very wide blade",
+          "b": "A circular blade",
+          "c": "A pointed blade",
+          "d": "A frame like a coping saw"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "16. Chisels are sharpened at approximately what angle to the flat surface?",
         "options": {
           "a": "10 degrees",
           "b": "30 degrees",
@@ -1204,312 +1173,342 @@ export const edpQuestions = {
         "answer": "b"
       },
       {
-        "question": "20. A Firmer Chisel typically has:",
+        "question": "17. Which type of chisel is generally thicker and specifically used for cutting mortise joints?",
         "options": {
-          "a": "A rounded blade.",
-          "b": "A thick, strong blade with straight edges, used for general-purpose work.",
-          "c": "A very thin, flexible blade.",
-          "d": "A beveled edge on both sides."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "21. A Mortise Chisel is characterized by:",
-        "options": {
-          "a": "A thin, wide blade for paring.",
-          "b": "A thick, narrow blade designed to withstand heavy mallet blows for cutting mortises.",
-          "c": "A curved blade for carving.",
-          "d": "Replaceable cutting tips."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "22. A Hand Plane (like a Jack Plane or Block Plane) is used to:",
-        "options": {
-          "a": "Cut wood into pieces.",
-          "b": "Flatten, reduce the thickness of, and impart a smooth surface to wood.",
-          "c": "Drill holes.",
-          "d": "Drive nails."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "23. A Jack Plane is considered a:",
-        "options": {
-          "a": "Small plane for end grain.",
-          "b": "Very long plane for jointing edges.",
-          "c": "General-purpose bench plane for initial flattening and smoothing.",
-          "d": "Specialized plane for cutting grooves."
+          "a": "Firmer Chisel",
+          "b": "Bevel-Edged Chisel",
+          "c": "Mortise Chisel",
+          "d": "Paring Chisel"
         },
         "answer": "c"
       },
       {
-        "question": "24. A Block Plane is typically small and designed for:",
+        "question": "18. What is the primary purpose of a 'Plane' in woodworking?",
         "options": {
-          "a": "Flattening large tabletops.",
-          "b": "Cutting end grain and chamfering edges.",
-          "c": "Cutting mortises.",
-          "d": "Ripping boards along the grain."
+          "a": "To cut curves",
+          "b": "To drill holes",
+          "c": "To remove wood for straightening or smoothing surfaces",
+          "d": "To join pieces of wood"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "19. Which type of plane is described as the most commonly used for general straightening and smoothing?",
+        "options": {
+          "a": "Block Plane",
+          "b": "Jointer Plane",
+          "c": "Router Plane",
+          "d": "Jack Plane"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "20. A Block Plane is typically small (3-7 inches) and used for:",
+        "options": {
+          "a": "Planing very long edges",
+          "b": "Heavy stock removal",
+          "c": "Minor cutting, shaping, chamfering, and cleaning tasks",
+          "d": "Cutting mortises"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "21. A Jointer Plane (22 or 24 inches) is best suited for:",
+        "options": {
+          "a": "Cutting small curves",
+          "b": "Planning very long stock, like the edges of doors",
+          "c": "Smoothing the bottom of grooves",
+          "d": "Chamfering corners"
         },
         "answer": "b"
       },
       {
-        "question": "25. Boring tools like braces, bits, or drills are used for:",
+        "question": "22. What is the function of a Router Plane?",
         "options": {
-          "a": "Smoothing surfaces.",
-          "b": "Making holes in wood.",
-          "c": "Cutting joints.",
-          "d": "Measuring lengths."
+          "a": "To plane the edges of boards",
+          "b": "To smooth the bottom of grooves or recesses",
+          "c": "To cut curves",
+          "d": "To make initial rough cuts"
         },
         "answer": "b"
       },
       {
-        "question": "26. A Bradawl is used to:",
-        "options": {
-          "a": "Drill large holes.",
-          "b": "Make small starting holes for screws or drills.",
-          "c": "Cut curves.",
-          "d": "Smooth edges."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "27. Which hammer type is specifically designed with a claw for pulling out nails?",
+        "question": "23. Which type of hammer has a claw for pulling out nails?",
         "options": {
           "a": "Wooden Mallet",
-          "b": "Ball Pein Hammer",
-          "c": "Claw Hammer",
-          "d": "Sledge Hammer"
+          "b": "Warrington Hammer",
+          "c": "Pin Hammer",
+          "d": "Claw Hammer"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "24. A Wooden Mallet is primarily used for:",
+        "options": {
+          "a": "Driving nails",
+          "b": "Pulling nails",
+          "c": "Striking chisels",
+          "d": "Shaping metal"
         },
         "answer": "c"
       },
       {
-        "question": "28. A Bench Vise is used in woodworking to:",
+        "question": "25. What is a Bench Vise used for in woodworking?",
         "options": {
-          "a": "Cut wood.",
-          "b": "Smooth wood.",
-          "c": "Securely hold a workpiece while it is being worked on.",
-          "d": "Measure wood."
+          "a": "Cutting wood",
+          "b": "Measuring angles",
+          "c": "Holding a workpiece securely during operations",
+          "d": "Smoothing surfaces"
         },
         "answer": "c"
       },
       {
-        "question": "29. G Clamps are used for:",
+        "question": "26. Sandpaper grit size is indicated by a number. A low number (e.g., 40) means the sandpaper is:",
         "options": {
-          "a": "Striking chisels.",
-          "b": "Holding pieces of wood together while glue dries or during assembly.",
-          "c": "Measuring angles.",
-          "d": "Cutting metal."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "30. A Marking Knife is preferred over a pencil for precise layout because it:",
-        "options": {
-          "a": "Is easier to erase.",
-          "b": "Makes a wider line.",
-          "c": "Severs the wood fibers, creating a very fine, accurate line and a guide for chisels or saws.",
-          "d": "Can mark on metal as well."
+          "a": "Very fine",
+          "b": "Medium",
+          "c": "Very coarse",
+          "d": "Smooth"
         },
         "answer": "c"
       },
       {
-        "question": "31. A Thickness Planer (Thicknesser) is a woodworking machine used to:",
+        "question": "27. What woodworking operation involves smoothing the surface of rough cut lumber?",
         "options": {
-          "a": "Cut curves.",
-          "b": "Smooth the face of a board.",
-          "c": "Plane boards down to a consistent thickness.",
-          "d": "Cut joints."
+          "a": "Mortising",
+          "b": "Rebating",
+          "c": "Planning",
+          "d": "Carving"
         },
         "answer": "c"
       },
       {
-        "question": "32. A Jointer (Surface Planer) is used to:",
+        "question": "28. 'Thicknessing' is done to:",
         "options": {
-          "a": "Create a flat surface on the face or edge of a board.",
-          "b": "Cut boards to width.",
-          "c": "Drill holes.",
-          "d": "Sand surfaces smooth."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "33. A Table Saw is primarily used for making:",
-        "options": {
-          "a": "Curved cuts.",
-          "b": "Straight rip cuts and crosscuts.",
-          "c": "Holes.",
-          "d": "Mortises."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "34. A Band Saw excels at cutting:",
-        "options": {
-          "a": "Only straight lines.",
-          "b": "Curves and irregular shapes, as well as resawing (cutting boards thinner).",
-          "c": "Dovetail joints automatically.",
-          "d": "Metal sheets only."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "35. A Wood Lathe is used for:",
-        "options": {
-          "a": "Flattening boards.",
-          "b": "Cutting joints.",
-          "c": "Shaping wood by rotating it against cutting tools (turning).",
-          "d": "Drilling square holes."
+          "a": "Cut curves",
+          "b": "Join wood pieces",
+          "c": "Give a uniform thickness to wood",
+          "d": "Create decorative edges"
         },
         "answer": "c"
       },
       {
-        "question": "36. A Router (handheld or table-mounted) is a versatile tool used for:",
+        "question": "29. Mortising is the operation of producing what shape of holes or recesses?",
         "options": {
-          "a": "Ripping long boards.",
-          "b": "Planing large surfaces flat.",
-          "c": "Cutting grooves, shaping edges, creating joints, and hollowing out areas.",
-          "d": "Driving screws."
+          "a": "Circular",
+          "b": "Rectangular or square",
+          "c": "Triangular",
+          "d": "Irregular"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "30. What is 'Rebating' (or Rabetting)?",
+        "options": {
+          "a": "Making a projection on the edge of wood",
+          "b": "Making a recess (like a step) along the edge of wood",
+          "c": "Smoothing the surface",
+          "d": "Drilling a hole"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "31. 'Molding' in woodworking refers to:",
+        "options": {
+          "a": "Joining two pieces at an angle",
+          "b": "Cutting convex, concave, or circular surfaces/profiles",
+          "c": "Making wood thicker",
+          "d": "Drilling holes"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "32. What is the purpose of 'Grooving and Tonguing'?",
+        "options": {
+          "a": "To smooth the wood surface",
+          "b": "To create interlocking joints for joining boards edge-to-edge (like floorboards)",
+          "c": "To carve designs",
+          "d": "To cut wood across the grain"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "33. Drilling and Boring are operations used for:",
+        "options": {
+          "a": "Smoothing surfaces",
+          "b": "Joining wood",
+          "c": "Producing or enlarging holes in wood",
+          "d": "Cutting shapes"
         },
         "answer": "c"
       },
       {
-        "question": "37. Sanding machines (like belt, disc, or orbital sanders) are power tools used for:",
+        "question": "34. Wood 'Turning' typically uses which machine?",
         "options": {
-          "a": "Cutting wood.",
-          "b": "Drilling holes.",
-          "c": "Smoothing wood surfaces efficiently.",
-          "d": "Applying finish."
+          "a": "Band Saw",
+          "b": "Drill Press",
+          "c": "Wood Lathe",
+          "d": "Planer"
         },
         "answer": "c"
       },
       {
-        "question": "38. A Drill Press provides more accuracy and control than a handheld drill for:",
+        "question": "35. 'Carving' involves:",
         "options": {
-          "a": "Driving screws.",
-          "b": "Making precisely located and perpendicular holes.",
-          "c": "Sanding edges.",
-          "d": "Cutting curves."
+          "a": "Making wood smooth",
+          "b": "Creating elaborate designs in wood using carving tools",
+          "c": "Joining wood pieces",
+          "d": "Measuring wood accurately"
         },
         "answer": "b"
       },
       {
-        "question": "39. A Butt Joint is formed by:",
+        "question": "36. 'Sanding' is primarily done to:",
         "options": {
-          "a": "Overlapping two pieces.",
-          "b": "Joining two pieces end-to-end or edge-to-edge without any shaping.",
-          "c": "Interlocking pins and tails.",
-          "d": "Cutting a groove and inserting a tongue."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "40. A Lap Joint involves:",
-        "options": {
-          "a": "Joining pieces end-to-end.",
-          "b": "Cutting away half the thickness from each piece so they overlap flush.",
-          "c": "Using dowels to connect pieces.",
-          "d": "Cutting interlocking fingers."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "41. A Mortise and Tenon joint connects:",
-        "options": {
-          "a": "Two pieces edge-to-edge.",
-          "b": "A projecting piece (tenon) fitting into a hole (mortise).",
-          "c": "Two overlapping pieces.",
-          "d": "Two pieces using biscuits."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "42. A Dovetail Joint is known for its:",
-        "options": {
-          "a": "Simplicity and low strength.",
-          "b": "Use in temporary structures.",
-          "c": "Strong interlocking nature due to trapezoidal pins and tails, resisting being pulled apart.",
-          "d": "Ease of cutting by hand saw."
+          "a": "Cut wood",
+          "b": "Join wood",
+          "c": "Produce smooth surfaces or adjust thickness",
+          "d": "Mark lines"
         },
         "answer": "c"
       },
       {
-        "question": "43. A Dado Joint involves cutting:",
+        "question": "37. Which type of wood joint involves joining two pieces end-to-end or edge-to-edge by simply butting them together?",
         "options": {
-          "a": "A projection on the end of a board.",
-          "b": "A square-cornered channel or groove across the grain of one piece to receive the end of another piece.",
-          "c": "Half the thickness away from two overlapping pieces.",
-          "d": "Interlocking fingers."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "44. A Rabbet (or Rebate) Joint is:",
-        "options": {
-          "a": "A groove cut in the middle of a board.",
-          "b": "An L-shaped groove or step cut along the edge of a piece.",
-          "c": "An end-to-end connection.",
-          "d": "A joint using dowels."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "45. A Tongue and Groove Joint is commonly used for:",
-        "options": {
-          "a": "Joining framing members at corners.",
-          "b": "Joining boards edge-to-edge, like in flooring or paneling.",
-          "c": "Creating drawers.",
-          "d": "Attaching legs to tabletops."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "46. Dowel Joints use:",
-        "options": {
-          "a": "Metal screws.",
-          "b": "Interlocking wood shapes.",
-          "c": "Cylindrical wooden pegs (dowels) inserted into corresponding holes.",
-          "d": "Glue only."
+          "a": "Mortise and Tenon Joint",
+          "b": "Dovetail Joint",
+          "c": "Butt Joint",
+          "d": "Lap Joint"
         },
         "answer": "c"
       },
       {
-        "question": "47. Biscuit Joints utilize:",
+        "question": "38. A Mitre Joint typically joins two pieces at what angle?",
         "options": {
-          "a": "Metal plates.",
-          "b": "Small, oval-shaped wooden 'biscuits' inserted into slots cut by a biscuit joiner.",
-          "c": "Long wooden dowels.",
-          "d": "Mortise and tenon connections."
+          "a": "180 degrees",
+          "b": "90 degrees (each piece cut at 45 degrees)",
+          "c": "60 degrees",
+          "d": "30 degrees"
         },
         "answer": "b"
       },
       {
-        "question": "48. Finger Joints (Box Joints) consist of:",
+        "question": "39. The Mortise and Tenon joint consists of:",
         "options": {
-          "a": "A single large projection.",
-          "b": "Interlocking rectangular 'fingers,' often used for corner joints in boxes.",
-          "c": "Round dowels.",
-          "d": "A groove and a tongue."
+          "a": "Two overlapping pieces",
+          "b": "A projecting piece (tenon) fitting into a hole (mortise)",
+          "c": "Interlocking pins and tails",
+          "d": "Wooden pegs (dowels)"
         },
         "answer": "b"
       },
       {
-        "question": "49. When planning wood, it's generally best to cut:",
+        "question": "40. A Tongue and Groove joint is commonly used for:",
         "options": {
-          "a": "Against the grain direction.",
-          "b": "With (along) the grain direction to avoid tear-out.",
-          "c": "Across the grain only.",
-          "d": "Diagonally to the grain."
+          "a": "Joining frame corners",
+          "b": "Joining boards edge-to-edge, like flooring or paneling",
+          "c": "Making drawers",
+          "d": "Strengthening chair legs"
         },
         "answer": "b"
       },
       {
-        "question": "50. Safety glasses should always be worn when:",
+        "question": "41. What is a Rabbet Joint?",
         "options": {
-          "a": "Only when sanding.",
-          "b": "Only when using power tools.",
-          "c": "Operating any woodworking tool (hand or power) that can create dust or flying debris.",
-          "d": "Only when applying finish."
+          "a": "A joint using dowels",
+          "b": "A joint where a groove (rebate) is cut along the edge of one piece to receive another",
+          "c": "An angled butt joint",
+          "d": "A joint with interlocking fingers"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "42. A Dado Joint involves cutting:",
+        "options": {
+          "a": "A projection on the end of a piece",
+          "b": "A groove across the grain of one piece to receive the end of another (like shelves in a bookcase)",
+          "c": "Interlocking dovetails",
+          "d": "Angles for a mitre"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "43. Lap Joints involve:",
+        "options": {
+          "a": "Cutting interlocking pins",
+          "b": "Joining pieces end-to-end",
+          "c": "Removing material from both pieces so they overlap flush",
+          "d": "Using metal fasteners"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "44. Dovetail joints are known for their:",
+        "options": {
+          "a": "Simplicity and ease of cutting",
+          "b": "Use in temporary structures",
+          "c": "Strong interlocking nature, often used in drawer construction",
+          "d": "Flexibility"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "45. A Dowel Joint uses what to reinforce the connection?",
+        "options": {
+          "a": "Metal screws",
+          "b": "Glue only",
+          "c": "Small wooden pegs (dowels)",
+          "d": "Interlocking shapes"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "46. Biscuit Joints use:",
+        "options": {
+          "a": "Metal biscuits",
+          "b": "Small, oval-shaped wooden 'biscuits' inserted into slots",
+          "c": "Long wooden dowels",
+          "d": "Mortise and tenon"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "47. Finger Joints (or Box Joints) consist of:",
+        "options": {
+          "a": "A single large projection",
+          "b": "A series of interlocking rectangular 'fingers'",
+          "c": "Angled cuts like a mitre",
+          "d": "Rounded pegs"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "48. What advantage does bamboo offer as a prototyping material?",
+        "options": {
+          "a": "It is very dense and heavy.",
+          "b": "It grows slowly.",
+          "c": "High strength-to-weight ratio, rapid growth (sustainability), flexibility.",
+          "d": "It requires specialized metalworking tools."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "49. Compared to solid wood, EWPs like plywood and MDF are often:",
+        "options": {
+          "a": "Less stable and weaker",
+          "b": "More prone to warping",
+          "c": "More dimensionally stable and sometimes stronger",
+          "d": "Only available in small sizes"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "50. Which woodworking machine uses computer control to cut shapes from wood based on a digital design?",
+        "options": {
+          "a": "Manual Lathe",
+          "b": "Band Saw",
+          "c": "CNC Router",
+          "d": "Drum Sander"
         },
         "answer": "c"
       }
@@ -1519,1020 +1518,1008 @@ export const edpQuestions = {
     name: "Module 4: Digital Technologies in Product Design and Prototyping",
     questions: [
       {
-        "question": "1. CAD software is primarily used in product design for:",
+        "question": "1. What does CAD stand for?",
         "options": {
-          "a": "Writing marketing copy.",
-          "b": "Creating, modifying, analyzing, or optimizing digital models (2D or 3D) of a product.",
-          "c": "Managing employee schedules.",
-          "d": "Performing physical stress tests."
+          "a": "Computer-Assisted Development",
+          "b": "Computer-Aided Design",
+          "c": "Custom Automated Drafting",
+          "d": "Component Assembly Diagram"
         },
         "answer": "b"
       },
       {
-        "question": "2. A major benefit of using CAD over manual drafting is:",
+        "question": "2. What is the primary use of CAD software in product design?",
         "options": {
-          "a": "Reduced accuracy.",
-          "b": "The ability to easily modify designs, create complex geometries, and generate data for manufacturing.",
-          "c": "Increased material waste.",
-          "d": "Slower design process."
+          "a": "To manufacture the final product directly.",
+          "b": "To create, modify, analyze, or optimize digital models of a design.",
+          "c": "To manage project timelines.",
+          "d": "To perform market research."
         },
         "answer": "b"
       },
       {
-        "question": "3. Parametric modeling in CAD allows:",
+        "question": "3. Which of the following is listed as a benefit of CAD over manual drawing?",
         "options": {
-          "a": "Only creation of 2D drawings.",
-          "b": "Designs to be driven by parameters and constraints, enabling easy updates when dimensions change.",
-          "c": "Direct control of manufacturing machines.",
-          "d": "Artistic rendering only."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "4. CAD models can be used to generate:",
-        "options": {
-          "a": "Only artistic sketches.",
-          "b": "Engineering drawings, visualizations, simulation data, and toolpaths for CAM.",
-          "c": "Only cost estimates.",
-          "d": "Only user manuals."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "5. Solid modeling in CAD represents objects as:",
-        "options": {
-          "a": "A collection of surfaces with no thickness.",
-          "b": "Wireframe outlines only.",
-          "c": "Solid volumes with properties like mass and density.",
-          "d": "2D sketches only."
+          "a": "Requires physical storage folders.",
+          "b": "Scaling is always necessary.",
+          "c": "Ability to produce both 2D and 3D drawings, ease of storage, accuracy, ease of modification.",
+          "d": "Dimensioning is a manual process."
         },
         "answer": "c"
       },
       {
-        "question": "6. Surface modeling in CAD is often used for:",
+        "question": "4. What technology allows physical objects to connect and exchange data over the internet?",
         "options": {
-          "a": "Calculating structural integrity.",
-          "b": "Defining complex, freeform shapes and external aesthetics.",
-          "c": "Creating internal mechanical components.",
-          "d": "Generating CNC toolpaths directly."
+          "a": "CAD",
+          "b": "CAM",
+          "c": "CNC",
+          "d": "IoT (Internet of Things)"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "5. How can IoT systems be applied in prototyping?",
+        "options": {
+          "a": "Only for designing the visual appearance.",
+          "b": "To embed sensors and connectivity into prototypes for testing real-world performance and gathering data.",
+          "c": "To replace the need for physical prototypes.",
+          "d": "Solely for automating the manufacturing process."
         },
         "answer": "b"
       },
       {
-        "question": "7. Common file formats for exchanging CAD data include:",
+        "question": "6. What does CNC stand for in CNC Machining?",
         "options": {
-          "a": ".txt and .csv",
-          "b": ".mp3 and .wav",
-          "c": "STEP (.stp), IGES (.igs), STL (.stl), and native software formats (.sldprt, .dwg).",
-          "d": ".html and .css"
+          "a": "Computer Networked Cutting",
+          "b": "Custom Numerical Creation",
+          "c": "Computer Numerical Control",
+          "d": "Centralized Numeric Computation"
         },
         "answer": "c"
       },
       {
-        "question": "8. Rendering CAD models helps to:",
+        "question": "7. CNC Machining is a type of:",
         "options": {
-          "a": "Analyze stress points.",
-          "b": "Create photorealistic images of the design for visualization and marketing.",
-          "c": "Generate manufacturing code.",
-          "d": "Check for tolerance stack-up."
+          "a": "Additive manufacturing (building up material)",
+          "b": "Subtractive manufacturing (removing material)",
+          "c": "Formative manufacturing (shaping material without removal)",
+          "d": "Joining process (like welding)"
         },
         "answer": "b"
       },
       {
-        "question": "9. Finite Element Analysis (FEA) can be performed on CAD models to:",
+        "question": "8. How does CNC machining typically work?",
         "options": {
-          "a": "Check spelling in annotations.",
-          "b": "Simulate how the design will behave under stress, heat, or vibration.",
-          "c": "Generate artistic impressions.",
-          "d": "Calculate the cost of materials."
+          "a": "It uses UV light to cure resin.",
+          "b": "It uses computer controls to guide cutting tools (like mills, lathes, routers) to remove material from a workpiece.",
+          "c": "It deposits layers of molten plastic.",
+          "d": "It uses lasers to sinter powder."
         },
         "answer": "b"
       },
       {
-        "question": "10. Using CAD libraries allows designers to:",
+        "question": "9. Can CNC machining be used for prototyping with materials like wood and metal?",
         "options": {
-          "a": "Write custom software code.",
-          "b": "Quickly insert standard components (like screws, bearings) into their designs.",
-          "c": "Manually draw every part from scratch.",
-          "d": "Test the prototype's battery life."
+          "a": "No, only plastics.",
+          "b": "Yes, it is commonly used for various materials including wood, metals, and plastics.",
+          "c": "Only for wood.",
+          "d": "Only for metals."
         },
         "answer": "b"
       },
       {
-        "question": "11. The Internet of Things (IoT) refers to:",
-        "options": {
-          "a": "A specific type of CAD software.",
-          "b": "The network of physical objects embedded with sensors, software, and connectivity to exchange data.",
-          "c": "A method for 3D printing metal.",
-          "d": "A standard for engineering drawing layouts."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "12. In prototyping, IoT can be applied to:",
-        "options": {
-          "a": "Create purely aesthetic models.",
-          "b": "Develop 'smart' prototypes that collect real-world usage data via embedded sensors.",
-          "c": "Manually measure dimensions.",
-          "d": "Fold drawing sheets."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "13. Sensors in an IoT-enabled prototype might measure:",
-        "options": {
-          "a": "Only the color of the prototype.",
-          "b": "Parameters like temperature, pressure, motion, location, humidity, or user interaction.",
-          "c": "Only the designer's heart rate.",
-          "d": "The number of lines in the CAD drawing."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "14. Data collected from an IoT prototype can be used to:",
-        "options": {
-          "a": "Only generate marketing reports.",
-          "b": "Validate design assumptions, understand user behavior, and identify areas for improvement.",
-          "c": "Choose the prototyping material.",
-          "d": "Create the engineering drawing."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "15. Connectivity options for IoT prototypes include:",
-        "options": {
-          "a": "Only wired connections.",
-          "b": "Technologies like Wi-Fi, Bluetooth, Cellular (LTE, 5G), LoRaWAN, etc.",
-          "c": "Only physical mail.",
-          "d": "Only USB sticks."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "16. A key challenge in developing IoT prototypes can be:",
-        "options": {
-          "a": "Making the prototype look visually appealing.",
-          "b": "Power management for embedded sensors and radios.",
-          "c": "Choosing the right pencil grade.",
-          "d": "Folding the prototype correctly."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "17. Cloud platforms are often used in IoT systems for:",
-        "options": {
-          "a": "Storing CAD files locally.",
-          "b": "Data storage, processing, analysis, and visualization from connected prototypes.",
-          "c": "Running the CNC machine.",
-          "d": "Designing the user interface only."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "18. Security is a major consideration in IoT prototyping because:",
-        "options": {
-          "a": "Prototypes might get stolen.",
-          "b": "Connected devices can be vulnerable to hacking and data breaches.",
-          "c": "Sensors might run out of battery.",
-          "d": "CAD software might crash."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "19. 'Digital Twin' is an IoT concept involving:",
-        "options": {
-          "a": "Creating two identical physical prototypes.",
-          "b": "A virtual representation of a physical product or system, updated with real-time data from its physical counterpart.",
-          "c": "A specific type of 3D printer.",
-          "d": "A method for laser engraving."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "20. Using IoT in prototyping allows for testing:",
-        "options": {
-          "a": "Only the physical dimensions.",
-          "b": "The prototype's functionality and user interaction in realistic environments over time.",
-          "c": "Only the material strength.",
-          "d": "The quality of the engineering drawing."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "21. CNC Machining is a form of:",
-        "options": {
-          "a": "Additive Manufacturing",
-          "b": "Subtractive Manufacturing (material removal)",
-          "c": "Manual Manufacturing",
-          "d": "Formative Manufacturing (like casting)"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "22. CNC stands for:",
-        "options": {
-          "a": "Computer Network Control",
-          "b": "Computer Numerical Control",
-          "c": "Central Network Computer",
-          "d": "Custom Numerical Computing"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "23. The process of converting a CAD design into instructions for a CNC machine is called:",
-        "options": {
-          "a": "Rendering",
-          "b": "Simulation",
-          "c": "CAM (Computer-Aided Manufacturing) - generating toolpaths",
-          "d": "Meshing"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "24. G-code is:",
-        "options": {
-          "a": "A type of CAD file format.",
-          "b": "The most common programming language used to control CNC machines.",
-          "c": "A safety standard for workshops.",
-          "d": "A method for folding drawings."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "25. CNC machines can work with materials like:",
-        "options": {
-          "a": "Only plastics.",
-          "b": "Only wood.",
-          "c": "Metals, plastics, wood, composites, foam.",
-          "d": "Only paper."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "26. A CNC Mill uses:",
-        "options": {
-          "a": "A rotating workpiece and a stationary tool.",
-          "b": "A rotating cutting tool to remove material from a stationary workpiece.",
-          "c": "A laser beam to cut material.",
-          "d": "An extrusion nozzle to add material."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "27. A CNC Lathe uses:",
-        "options": {
-          "a": "A rotating cutting tool and a stationary workpiece.",
-          "b": "A rotating workpiece and a linearly moving cutting tool.",
-          "c": "Friction to join parts.",
-          "d": "UV light to cure resin."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "28. Advantages of CNC machining for prototyping include:",
-        "options": {
-          "a": "Low initial setup cost compared to 3D printing.",
-          "b": "Ability to use only flexible materials.",
-          "c": "High precision, repeatability, and the ability to use production-intent materials.",
-          "d": "Speed for creating very large, simple shapes."
-        },
-        "answer": "c"
-      },
-      {
-        "question": "29. Limitations of CNC machining can include:",
-        "options": {
-          "a": "Inability to create precise parts.",
-          "b": "Difficulty with very complex internal geometries and undercuts compared to additive manufacturing.",
-          "c": "Only works with soft materials.",
-          "d": "Very fast setup time for one-off parts."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "30. CNC Routers are commonly used for:",
-        "options": {
-          "a": "Machining hard metals like titanium.",
-          "b": "Cutting large sheets of wood, plastic, or foam.",
-          "c": "3D printing ceramics.",
-          "d": "Welding steel frames."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "31. 3D Printing is also known as:",
+        "question": "10. 3D Printing is also known as:",
         "options": {
           "a": "Subtractive Manufacturing",
-          "b": "Reductive Manufacturing",
+          "b": "CNC Machining",
           "c": "Additive Manufacturing",
-          "d": "Manual Prototyping"
+          "d": "Laser Engraving"
         },
         "answer": "c"
       },
       {
-        "question": "32. The basic principle of 3D printing involves:",
+        "question": "11. How does 3D Printing typically create an object?",
         "options": {
-          "a": "Removing material from a block.",
-          "b": "Building an object layer by layer from a digital model.",
-          "c": "Casting molten material into a mold.",
-          "d": "Bending sheet material into shape."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "33. Fused Deposition Modeling (FDM) builds parts by:",
-        "options": {
-          "a": "Curing liquid resin with UV light.",
-          "b": "Sintering powder with a laser.",
-          "c": "Extruding and depositing melted thermoplastic filament layer by layer.",
-          "d": "Binding powder with an adhesive inkjet."
+          "a": "By carving it from a solid block.",
+          "b": "By joining flat sheets together.",
+          "c": "By building it up layer by layer from a digital model.",
+          "d": "By bending metal rods."
         },
         "answer": "c"
       },
       {
-        "question": "34. Stereolithography (SLA) creates parts by:",
+        "question": "12. Which 3D printing technology involves extruding thermoplastic filament?",
         "options": {
-          "a": "Extruding plastic filament.",
-          "b": "Using a UV laser to selectively cure layers of liquid photopolymer resin.",
-          "c": "Melting metal powder with an electron beam.",
-          "d": "Cutting layers from sheets of material."
+          "a": "SLA (Stereolithography)",
+          "b": "SLS (Selective Laser Sintering)",
+          "c": "FDM (Fused Deposition Modeling)",
+          "d": "LOM (Laminated Object Manufacturing)"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "13. Which 3D printing technology uses UV light to cure liquid resin?",
+        "options": {
+          "a": "FDM",
+          "b": "SLA",
+          "c": "SLS",
+          "d": "CNC Milling"
         },
         "answer": "b"
       },
       {
-        "question": "35. Selective Laser Sintering (SLS) works by:",
+        "question": "14. Which 3D printing technology uses a laser to fuse or sinter powdered material?",
         "options": {
-          "a": "Using a laser to fuse together layers of powdered material (typically plastic or nylon).",
-          "b": "Curing liquid resin.",
-          "c": "Extruding filament.",
-          "d": "Cutting sheets of paper."
+          "a": "FDM",
+          "a": "SLA",
+          "c": "SLS",
+          "d": "LOM"
         },
-        "answer": "a"
+        "answer": "c"
       },
       {
-        "question": "36. A key advantage of SLS is:",
+        "question": "15. Can 3D printing be used with different types of materials like plastics, resins, and sometimes metals or ceramics?",
+        "options": {
+          "a": "No, only plastic filament.",
+          "b": "Yes, different 3D printing technologies are suited for various material types.",
+          "c": "Only resins.",
+          "d": "Only metals."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "16. What is Laser Cutting?",
+        "options": {
+          "a": "A process that uses a laser beam to join materials.",
+          "b": "A process that uses a laser beam to vaporize or melt material in a localized area to cut through it.",
+          "c": "A process that uses a laser to cure liquid resin.",
+          "d": "A process that uses a laser to measure distances."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "17. Laser cutting is often used for prototyping with which types of materials?",
+        "options": {
+          "a": "Only thick metal blocks",
+          "b": "Sheet materials like acrylic, wood, paper, cardboard, and thin metals",
+          "c": "Liquid resins",
+          "d": "Concrete"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "18. What is Laser Engraving?",
+        "options": {
+          "a": "Cutting completely through a material with a laser.",
+          "b": "Using a laser to remove surface material to create a design or mark, without cutting all the way through.",
+          "c": "Joining materials with a laser.",
+          "d": "Polishing surfaces with a laser."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "19. What is a primary advantage of using digital technologies like CAD, CNC, and 3D Printing in prototyping?",
+        "options": {
+          "a": "They eliminate the need for design skills.",
+          "b": "They allow for rapid iteration, complex geometries, and direct creation from digital models.",
+          "c": "They are always cheaper than manual methods.",
+          "d": "They only work with one type of material."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "20. Which software is commonly associated with creating the digital models used for CNC machining and 3D printing?",
+        "options": {
+          "a": "Word processing software",
+          "b": "Spreadsheet software",
+          "c": "CAD software (e.g., AutoCAD, Solidworks)",
+          "d": "Presentation software"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "21. What does CAM stand for, often used in conjunction with CAD?",
+        "options": {
+          "a": "Computer-Aided Machining",
+          "b": "Computer-Aided Manufacturing",
+          "c": "Component Assembly Management",
+          "d": "Creative Automated Modeling"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "22. What is the role of CAM software?",
+        "options": {
+          "a": "To design the 3D model.",
+          "b": "To generate the toolpaths and instructions for CNC machines based on a CAD model.",
+          "c": "To simulate fluid dynamics.",
+          "d": "To manage project budgets."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "23. Which digital technology is best suited for creating highly detailed, small prototypes or models, often used in jewelry or dental applications?",
+        "options": {
+          "a": "FDM",
+          "b": "SLA or DLP (similar resin-based technologies)",
+          "c": "Large-format CNC routing",
+          "d": "Laser Cutting"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "24. Which technology allows for creating prototypes with internal structures or complex geometries that might be difficult or impossible with traditional subtractive methods?",
+        "options": {
+          "a": "Manual Lathe Turning",
+          "b": "Manual Milling",
+          "c": "3D Printing (Additive Manufacturing)",
+          "d": "Sheet Metal Bending"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "25. What type of file format is commonly used to transfer 3D model data from CAD software to 3D printers?",
+        "options": {
+          "a": ".docx",
+          "b": ".pdf",
+          "c": ".stl or .obj",
+          "d": ".jpg"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "26. Can IoT be integrated into prototypes to test user interaction in a connected environment?",
+        "options": {
+          "a": "No, IoT is only for final products.",
+          "b": "Yes, embedding sensors and connectivity allows testing of smart features and user interactions.",
+          "c": "IoT is only related to software.",
+          "d": "IoT is the same as CAD."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "27. A key benefit of using CAD in product design is the ability to easily:",
+        "options": {
+          "a": "Physically test the material strength.",
+          "b": "Modify and iterate on the design digitally.",
+          "c": "Manufacture the product without prototyping.",
+          "d": "Conduct market surveys."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "28. CNC Routers, often used for wood, are a type of:",
+        "options": {
+          "a": "3D Printer",
+          "b": "Laser Cutter",
+          "c": "CNC Machine (Subtractive)",
+          "d": "Welding equipment"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "29. Laser engraving can be used on prototypes to add:",
+        "options": {
+          "a": "Structural support",
+          "b": "Electrical conductivity",
+          "c": "Logos, text, or surface patterns",
+          "d": "Material thickness"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "30. What is a potential limitation of FDM 3D printing compared to SLA?",
+        "options": {
+          "a": "Cannot print complex shapes.",
+          "b": "Generally has lower resolution and visible layer lines.",
+          "c": "Uses more expensive materials.",
+          "d": "Is much slower."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "31. What is a major advantage of SLS 3D printing, particularly with plastics like nylon?",
         "options": {
           "a": "It produces transparent parts.",
-          "b": "It often doesn't require support structures for overhangs, as the surrounding powder provides support.",
+          "b": "It requires no support structures as the powder bed supports the part.",
           "c": "It uses liquid resin.",
           "d": "It is the cheapest 3D printing method."
         },
         "answer": "b"
       },
       {
-        "question": "37. Materials commonly used in FDM include:",
+        "question": "32. Digital technologies enable 'Rapid Prototyping', which means:",
         "options": {
-          "a": "Photopolymer resins.",
-          "b": "Metal powders.",
-          "c": "Thermoplastics like PLA, ABS, PETG, Nylon.",
-          "d": "Ceramics."
+          "a": "Prototypes are made very small.",
+          "b": "Prototypes can be produced quickly from digital designs.",
+          "c": "Only simple prototypes can be made.",
+          "d": "Prototypes are made from rapidly degrading materials."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "33. Using CAD allows for virtual testing and simulation. What is a benefit of this?",
+        "options": {
+          "a": "It replaces all need for physical prototypes.",
+          "b": "It can identify potential design flaws before physical prototyping, saving time and cost.",
+          "c": "It guarantees the final product will be successful.",
+          "d": "It makes the design process slower."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "34. Which digital technology would be most suitable for cutting intricate patterns out of a sheet of acrylic for a visual prototype?",
+        "options": {
+          "a": "FDM 3D Printing",
+          "b": "CNC Milling",
+          "c": "Laser Cutting",
+          "d": "SLA 3D Printing"
         },
         "answer": "c"
       },
       {
-        "question": "38. SLA is known for producing parts with:",
+        "question": "35. Which digital technology would be best for creating a functional plastic prototype part with complex internal channels?",
         "options": {
-          "a": "Rough surface finish.",
-          "b": "High detail resolution and smooth surface finish.",
-          "c": "Low accuracy.",
-          "d": "Extreme strength comparable to machined metal."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "39. 3D printing is particularly useful in prototyping for:",
-        "options": {
-          "a": "Creating large batches of identical parts cheaply.",
-          "b": "Quickly producing complex or customized physical models directly from CAD data.",
-          "c": "Machining hardened steel components.",
-          "d": "Bending sheet metal accurately."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "40. Post-processing in 3D printing might involve:",
-        "options": {
-          "a": "Generating the G-code.",
-          "b": "Designing the part in CAD.",
-          "c": "Removing support structures, sanding, painting, or curing (for SLA).",
-          "d": "Folding the engineering drawing."
+          "a": "Laser Engraving",
+          "b": "CNC Turning",
+          "c": "3D Printing (e.g., SLA or SLS)",
+          "d": "Manual Drilling"
         },
         "answer": "c"
       },
       {
-        "question": "41. Laser Cutting uses a focused, high-power laser beam to:",
+        "question": "36. The integration of CAD and CAM allows for:",
         "options": {
-          "a": "Join materials together.",
-          "b": "Melt and fuse powders.",
-          "c": "Cut or vaporize material along a precise path.",
-          "d": "Cure liquid resins."
+          "a": "Designing products without computers.",
+          "b": "A seamless workflow from digital design to automated manufacturing/machining.",
+          "c": "Only creating 2D drawings.",
+          "d": "Focusing solely on artistic aspects."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "37. An example of using IoT in prototyping could be:",
+        "options": {
+          "a": "Creating a 3D model of a sensor.",
+          "b": "Building a prototype wearable device that transmits real-time heart rate data for testing.",
+          "c": "Using a CNC machine to cut metal.",
+          "d": "Laser engraving a logo."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "38. What information does a CAD model contain that is essential for CNC or 3D printing?",
+        "options": {
+          "a": "Marketing strategy",
+          "b": "Precise geometric data defining the object's shape and size",
+          "c": "User manuals",
+          "d": "Color palettes only"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "39. Can laser engraving be performed on materials like wood and plastic?",
+        "options": {
+          "a": "No, only metal.",
+          "b": "Yes, it is commonly used on wood, plastics, glass, and other materials.",
+          "c": "Only on paper.",
+          "d": "Only on ceramics."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "40. What is a key consideration when choosing between CNC machining and 3D printing for a prototype?",
+        "options": {
+          "a": "CNC is always faster.",
+          "b": "3D printing always uses metal.",
+          "c": "The required material, geometric complexity, required precision, and cost.",
+          "d": "3D printing requires no digital model."
         },
         "answer": "c"
       },
       {
-        "question": "42. Laser cutters are commonly used on materials like:",
+        "question": "41. Which process starts with a block of material and removes parts of it?",
         "options": {
-          "a": "Thick steel blocks.",
-          "b": "Acrylic, wood (plywood, MDF), paper, cardboard, fabric, some thin plastics.",
-          "c": "Concrete.",
-          "d": "Liquid resins."
+          "a": "3D Printing (Additive)",
+          "b": "CNC Machining (Subtractive)",
+          "c": "Stereolithography (Additive)",
+          "d": "Fused Deposition Modeling (Additive)"
         },
         "answer": "b"
       },
       {
-        "question": "43. Laser Engraving (or Etching) differs from cutting in that it:",
+        "question": "42. Which process builds a part by adding material layer by layer?",
         "options": {
-          "a": "Cuts completely through the material.",
-          "b": "Removes material from the surface to create a mark, without cutting through.",
-          "c": "Uses UV light instead of a laser.",
-          "d": "Joins materials using the laser heat."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "44. Input for laser cutters/engravers is typically:",
-        "options": {
-          "a": "A 3D STL file.",
-          "b": "A physical template.",
-          "c": "A 2D vector file (like .dxf, .ai, .svg).",
-          "d": "Handwritten instructions."
+          "a": "CNC Milling (Subtractive)",
+          "b": "CNC Turning (Subtractive)",
+          "c": "3D Printing (Additive)",
+          "d": "Laser Cutting (Subtractive)"
         },
         "answer": "c"
       },
       {
-        "question": "45. Advantages of laser cutting for prototyping include:",
+        "question": "43. The accuracy and surface finish of a prototype can vary significantly between different digital fabrication methods. True or False?",
         "options": {
-          "a": "Ability to create 3D volumetric shapes.",
-          "b": "High speed and precision for cutting complex 2D patterns.",
-          "c": "No material waste.",
-          "d": "Ability to join different materials."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "46. Limitations of laser cutting can include:",
-        "options": {
-          "a": "Inability to cut sharp corners.",
-          "b": "Material thickness limitations and potential for burnt edges depending on material and settings.",
-          "c": "Only works on metals.",
-          "d": "Very slow cutting speed."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "47. Laser engraving can be used in prototyping to:",
-        "options": {
-          "a": "Add logos, text, serial numbers, or surface textures to prototypes.",
-          "b": "Cut parts out of sheet material.",
-          "c": "Join plastic components.",
-          "d": "Measure dimensions accurately."
+          "a": "True",
+          "b": "False"
         },
         "answer": "a"
       },
       {
-        "question": "48. Safety precautions for laser cutters include:",
+        "question": "44. What is a benefit of using digital technologies for creating customized prototypes?",
         "options": {
-          "a": "Staring directly at the laser beam.",
-          "b": "Proper ventilation for fumes and using appropriate eye protection (often built into the machine enclosure).",
-          "c": "Disabling safety interlocks.",
-          "d": "Using flammable materials without checking compatibility."
+          "a": "Customization is not possible.",
+          "b": "Digital models can be easily modified to produce unique or personalized prototypes.",
+          "c": "It makes prototypes less accurate.",
+          "d": "It only works for mass production."
         },
         "answer": "b"
       },
       {
-        "question": "49. Combining digital technologies (e.g., 3D printing parts, laser cutting enclosures, using IoT sensors) allows for:",
+        "question": "45. Software like Altium Designer and KiCad, mentioned in the slides, are primarily used for:",
         "options": {
-          "a": "Slower prototyping cycles.",
-          "b": "Creation of complex, multi-component, functional prototypes.",
-          "c": "Reduced need for CAD software.",
-          "d": "Elimination of material costs."
+          "a": "Mechanical CAD",
+          "b": "Architectural design",
+          "c": "PCB (Printed Circuit Board) design",
+          "d": "Fluid dynamics simulation"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "46. Matlab is often used in engineering for:",
+        "options": {
+          "a": "Creating 3D artistic models.",
+          "b": "Word processing.",
+          "c": "Numerical computation, simulation, and data analysis.",
+          "d": "Designing user interfaces."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "47. The automation provided by CNC machines contributes to:",
+        "options": {
+          "a": "Lower precision.",
+          "b": "Increased need for manual labor.",
+          "c": "Repeatability and precision in manufacturing parts.",
+          "d": "Slower production times."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "48. What is a key output from a CAD system that can be used by CAM software?",
+        "options": {
+          "a": "A physical prototype.",
+          "b": "A marketing plan.",
+          "c": "A digital geometric model (e.g., .STEP, .IGES, .STL).",
+          "d": "A user survey."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "49. Can laser cutting be used to create parts for assembly in a prototype?",
+        "options": {
+          "a": "No, it only engraves.",
+          "b": "Yes, flat parts cut by laser can be assembled into 3D structures.",
+          "c": "Laser cutting only works on metal.",
+          "d": "Assembly is not part of prototyping."
         },
         "answer": "b"
       },
       {
-        "question": "50. The choice between CNC machining, 3D printing, and laser cutting for a prototype depends on:",
+        "question": "50. The use of digital technologies generally allows designers to explore ______ design options compared to purely manual methods.",
         "options": {
-          "a": "Only the color desired.",
-          "b": "Factors like required precision, material, geometry complexity, cost, and speed.",
-          "c": "Only the designer's preference.",
-          "d": "Only the availability of the machine."
+          "a": "Fewer",
+          "b": "More",
+          "c": "Less complex",
+          "d": "Only 2D"
         },
         "answer": "b"
       }
     ]
   },
-  moduleX: {
-    name: "Module X: Design Thinking and Ethics",
+  module5: {
+    name: "Module 5: Design Thinking and Ethics",
     questions: [
       {
-        "question": "1. Design Thinking is best described as:",
+        "question": "1. What is Design Thinking fundamentally concerned with?",
         "options": {
-          "a": "A software for creating drawings.",
-          "b": "A linear, rigid engineering process.",
-          "c": "A human-centered, iterative approach to creative problem-solving and innovation.",
-          "d": "A marketing strategy focused on aesthetics."
+          "a": "Creating aesthetically pleasing objects only.",
+          "b": "Solving complex problems in a highly user-centric way.",
+          "c": "Following a strict linear process.",
+          "d": "Reducing production costs above all else."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "2. Which of the following is a key feature of the Design Thinking process?",
+        "options": {
+          "a": "It is strictly linear and sequential.",
+          "b": "It avoids user input until the final stage.",
+          "c": "It is iterative, non-linear, and user-centered.",
+          "d": "It focuses solely on the designer's intuition."
         },
         "answer": "c"
       },
       {
-        "question": "2. The core ideology of Design Thinking emphasizes:",
+        "question": "3. What are the five typical stages of the Design Thinking process (often shown cyclically)?",
         "options": {
-          "a": "Technology limitations.",
-          "b": "Understanding and meeting the needs of the user.",
-          "c": "Following existing market trends exactly.",
-          "d": "Minimizing production costs above all else."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "3. Which field did Design Thinking NOT primarily evolve from?",
-        "options": {
-          "a": "Architecture",
-          "b": "Engineering",
-          "c": "Business",
-          "d": "Theoretical Physics"
-        },
-        "answer": "d"
-      },
-      {
-        "question": "4. The 'Human Rule' principle in Design Thinking suggests that:",
-        "options": {
-          "a": "All design activity is fundamentally social and human-oriented.",
-          "b": "Humans are flawed and designs must account for errors.",
-          "c": "Technology should replace human interaction.",
-          "d": "Design should be done in isolation."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "5. The 'Ambiguity Rule' encourages designers to:",
-        "options": {
-          "a": "Avoid uncertainty at all costs.",
-          "b": "Experiment and explore possibilities even when the path isn't clear.",
-          "c": "Define the problem rigidly from the start.",
-          "d": "Stick to the first idea generated."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "6. 'All Design is Redesign' implies that:",
-        "options": {
-          "a": "Every design must be completely novel.",
-          "b": "Designers often build upon existing solutions and human needs remain relatively constant despite technological changes.",
-          "c": "Old designs should be discarded entirely.",
-          "d": "Design is a one-time activity."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "7. The 'Tangibility Rule' highlights the importance of prototypes in:",
-        "options": {
-          "a": "Keeping ideas abstract.",
-          "b": "Making ideas concrete and communicable, enabling effective testing and feedback.",
-          "c": "Finalizing the design documentation.",
-          "d": "Calculating project costs."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "8. The first stage, 'Empathise,' involves:",
-        "options": {
-          "a": "Generating solutions immediately.",
-          "b": "Understanding the user's experiences, needs, motivations, and context.",
-          "c": "Building the final product.",
-          "d": "Defining the technical specifications."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "9. Common methods for building empathy include:",
-        "options": {
-          "a": "Only brainstorming sessions.",
-          "b": "User interviews, observation, creating empathy maps, and developing user personas.",
-          "c": "Analyzing competitor pricing.",
-          "d": "Writing code."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "10. Observing users in their natural environment helps designers to:",
-        "options": {
-          "a": "Understand what users say versus what they actually do.",
-          "b": "Test the prototype's durability.",
-          "c": "Define the project budget.",
-          "d": "Choose the manufacturing process."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "11. An Empathy Map typically includes quadrants for what the user:",
-        "options": {
-          "a": "Buys, Sells, Trades, Returns",
-          "b": "Reads, Writes, Calculates, Presents",
-          "c": "Says, Thinks, Does, Feels",
-          "d": "Likes, Dislikes, Wants, Needs (though Wants/Needs are often pains/gains derived from the others)"
+          "a": "Plan, Design, Build, Test, Launch",
+          "b": "Research, Analyze, Develop, Market, Sell",
+          "c": "Empathize, Define, Ideate, Prototype, Test",
+          "d": "Discover, Define, Develop, Deliver, Debrief"
         },
         "answer": "c"
       },
       {
-        "question": "12. User Personas are:",
+        "question": "4. What is the primary goal of the 'Empathize' stage?",
         "options": {
-          "a": "Detailed technical specifications.",
-          "b": "Fictional, representative characters created based on user research to guide design decisions.",
-          "c": "Marketing brochures.",
-          "d": "Legal agreements."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "13. Storytelling in the Empathise stage can help to:",
-        "options": {
-          "a": "Finalize the product design.",
-          "b": "Communicate user experiences and research findings in a compelling way.",
-          "c": "Calculate the return on investment.",
-          "d": "Test the prototype's functionality."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "14. Immersion involves:",
-        "options": {
-          "a": "Reading technical manuals.",
-          "b": "Designers experiencing the user's situation or environment firsthand.",
-          "c": "Conducting online surveys only.",
-          "d": "Finalizing the budget."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "15. Adopting an Empathic Approach means:",
-        "options": {
-          "a": "Focusing only on the designer's own opinions.",
-          "b": "Setting aside assumptions and genuinely trying to understand the user's perspective.",
-          "c": "Prioritizing technical feasibility over user needs.",
-          "d": "Rushing through the research phase."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "16. The 'Define' stage focuses on:",
-        "options": {
-          "a": "Building the prototype.",
-          "b": "Clearly articulating the core user problem identified during the Empathise stage.",
-          "c": "Testing the final product.",
-          "d": "Generating as many ideas as possible."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "17. A good problem statement in the Define stage should be:",
-        "options": {
-          "a": "Broad and vague.",
-          "b": "Focused on a specific technology.",
-          "c": "Human-centered, clear, and actionable, but not overly restrictive.",
-          "d": "A list of technical features."
+          "a": "To define the problem statement.",
+          "b": "To generate as many ideas as possible.",
+          "c": "To understand the users' needs, experiences, and motivations.",
+          "d": "To build a functional prototype."
         },
         "answer": "c"
       },
       {
-        "question": "18. Techniques like 'Point of View (POV)' statements or 'How Might We (HMW)' questions are used in which stage?",
+        "question": "5. Which method is used in the Empathize stage to illustrate a team's knowledge of users' thoughts, feelings, and actions?",
         "options": {
-          "a": "Empathise",
-          "b": "Define (to frame the problem)",
-          "c": "Prototype",
-          "d": "Test"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "19. Problem framing is critical because:",
-        "options": {
-          "a": "It guarantees the first solution will work.",
-          "b": "How a problem is defined influences the direction and effectiveness of the solutions generated.",
-          "c": "It allows skipping the Ideation stage.",
-          "d": "It determines the final price."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "20. Analyzing and synthesizing findings from the Empathise stage is crucial for:",
-        "options": {
-          "a": "Building the prototype directly.",
-          "b": "Accurately defining the problem in the Define stage.",
-          "c": "Marketing the product.",
-          "d": "Writing the code."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "21. The 'Ideate' stage is about:",
-        "options": {
-          "a": "Critiquing existing solutions only.",
-          "b": "Quantity over quality initially; generating a broad range of ideas to address the defined problem.",
-          "c": "Selecting the final manufacturing material.",
-          "d": "Testing the prototype with users."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "22. Brainstorming sessions are most effective when they:",
-        "options": {
-          "a": "Involve harsh criticism of ideas.",
-          "b": "Encourage wild ideas, defer judgment, build on others' ideas, and focus on quantity.",
-          "c": "Are limited to only two participants.",
-          "d": "Focus on only one feasible solution."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "23. Brainwriting is a technique where participants:",
-        "options": {
-          "a": "Shout out ideas simultaneously.",
-          "b": "Write down ideas individually and then pass them around for others to build upon.",
-          "c": "Draw pictures instead of writing words.",
-          "d": "Criticize ideas written on a whiteboard."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "24. Mind Mapping helps in Ideation by:",
-        "options": {
-          "a": "Creating a linear list of tasks.",
-          "b": "Visually organizing ideas and exploring relationships around a central theme or problem.",
-          "c": "Testing the usability of a prototype.",
-          "d": "Writing a detailed report."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "25. The SCAMPER technique encourages idea generation by prompting questions based on:",
-        "options": {
-          "a": "Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse.",
-          "b": "Size, Color, Amount, Material, Price, Efficiency, Reliability.",
-          "c": "Survey, Collect, Analyze, Model, Prototype, Evaluate, Report.",
-          "d": "Simplify, Complicate, Accelerate, Minimize, Pause, Energize, Reorganize."
-        },
-        "answer": "a"
-      },
-      {
-        "question": "26. Worst Possible Idea is an ideation technique used to:",
-        "options": {
-          "a": "Find the cheapest solution.",
-          "b": "Encourage criticism and negativity.",
-          "c": "Lower inhibitions and spark creativity by reversing the challenge.",
-          "d": "Select the final idea."
+          "a": "Brainstorming",
+          "b": "Mind Mapping",
+          "c": "Empathy Mapping",
+          "d": "SCAMPER"
         },
         "answer": "c"
       },
       {
-        "question": "27. Analogous Inspiration involves:",
+        "question": "6. The 'Define' stage focuses on:",
         "options": {
-          "a": "Copying competitors directly.",
-          "b": "Looking at how similar problems are solved in completely different domains.",
-          "c": "Using only digital tools.",
-          "d": "Focusing only on past failures."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "28. Sketching is a valuable tool in Ideation for:",
-        "options": {
-          "a": "Writing detailed specifications.",
-          "b": "Quickly visualizing and communicating ideas.",
-          "c": "Testing material strength.",
-          "d": "Finalizing the user interface."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "29. The goal of the Ideation stage is NOT to:",
-        "options": {
-          "a": "Generate many diverse ideas.",
-          "b": "Explore unconventional solutions.",
-          "c": "Select and fully develop the final solution.",
-          "d": "Encourage creativity and collaboration."
+          "a": "Building the first prototype.",
+          "b": "Testing the solution with users.",
+          "c": "Clearly articulating the core problem identified from the Empathize stage.",
+          "d": "Generating initial ideas."
         },
         "answer": "c"
       },
       {
-        "question": "30. Convergence in the Ideation stage involves:",
+        "question": "7. What happens during the 'Ideate' stage?",
         "options": {
-          "a": "Generating more ideas.",
-          "b": "Grouping, evaluating, and prioritizing the generated ideas to select promising ones for prototyping.",
-          "c": "Starting the Empathise stage again.",
+          "a": "User interviews are conducted.",
+          "b": "The problem is defined.",
+          "c": "A wide range of potential solutions and ideas are generated.",
+          "d": "The final solution is selected and tested."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "8. Which of these is an ideation method involving spontaneous group contribution of ideas?",
+        "options": {
+          "a": "Empathy Mapping",
+          "b": "Brainstorming",
+          "c": "User Persona Creation",
+          "d": "Prototyping"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "9. 'Brainwriting' involves participants writing ideas down and then:",
+        "options": {
+          "a": "Immediately building prototypes.",
+          "b": "Discarding the ideas.",
+          "c": "Passing their paper to others to elaborate on the ideas.",
+          "d": "Presenting the ideas verbally without sharing."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "10. The SCAMPER method is used to:",
+        "options": {
+          "a": "Test prototypes.",
+          "b": "Define user needs.",
+          "c": "Structure the creative process by prompting ways to alter existing ideas (Substitute, Combine, Adapt, etc.).",
+          "d": "Map user empathy."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "11. What is the purpose of the 'Prototype' stage in Design Thinking?",
+        "options": {
+          "a": "To finalize the product for manufacturing.",
+          "b": "To create scaled-down, testable versions of potential solutions.",
+          "c": "To define the initial problem.",
+          "d": "To conduct user interviews."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "12. Prototyping helps to make ideas:",
+        "options": {
+          "a": "More abstract",
+          "b": "Tangible and testable",
+          "c": "Finalized",
+          "d": "Less user-focused"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "13. The 'Test' stage involves:",
+        "options": {
+          "a": "Generating new ideas.",
+          "b": "Defining the problem again.",
+          "c": "Getting feedback on prototypes from users.",
           "d": "Building the final product."
         },
-        "answer": "b"
+        "answer": "c"
       },
       {
-        "question": "31. A prototype in Design Thinking is essentially:",
+        "question": "14. What is 'Iteration' in the context of Design Thinking?",
         "options": {
-          "a": "The final, market-ready product.",
-          "b": "A way to make ideas tangible and testable.",
-          "c": "A detailed engineering drawing.",
-          "d": "A marketing presentation."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "32. Prototypes are used to:",
-        "options": {
-          "a": "Finalize the budget.",
-          "b": "Learn, test assumptions, gather feedback, and refine ideas.",
-          "c": "Write the user manual.",
-          "d": "Secure patent rights."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "33. Prototype fidelity (low-fidelity vs. high-fidelity) refers to:",
-        "options": {
-          "a": "The cost of the prototype.",
-          "b": "The level of detail, functionality, and realism of the prototype.",
-          "c": "The size of the prototype.",
-          "d": "The material used for the prototype."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "34. Low-fidelity prototypes (e.g., paper sketches, simple mockups) are useful for:",
-        "options": {
-          "a": "Final usability testing.",
-          "b": "Testing core concepts and flows quickly and cheaply in early stages.",
-          "c": "Demonstrating the final look and feel.",
-          "d": "Manufacturing planning."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "35. High-fidelity prototypes (e.g., interactive digital mockups, functional physical models) are better for:",
-        "options": {
-          "a": "Initial brainstorming.",
-          "b": "Testing specific interactions, detailed usability, and closer-to-final look and feel.",
-          "c": "Exploring broad concepts.",
-          "d": "Quick, low-cost validation."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "36. The 'Testing' stage involves:",
-        "options": {
-          "a": "Designers evaluating the prototype themselves.",
-          "b": "Getting feedback on prototypes from actual users.",
-          "c": "Finalizing the manufacturing plan.",
-          "d": "Launching the product to the market."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "37. The primary goal of the Testing stage is to:",
-        "options": {
-          "a": "Sell the prototype.",
-          "b": "Persuade users the design is perfect.",
-          "c": "Understand what works and what doesn't, gain insights, and refine the solution or problem definition.",
-          "d": "Complete the project documentation."
+          "a": "The final stage of the process.",
+          "b": "A one-time test of the prototype.",
+          "c": "The process of repeating stages (like Prototype and Test) to refine and improve the solution based on feedback.",
+          "d": "Generating the initial idea."
         },
         "answer": "c"
       },
       {
-        "question": "38. Effective user testing involves:",
+        "question": "15. What is the core benefit of prototyping within the Design Thinking process?",
         "options": {
-          "a": "Telling the user exactly how to use the prototype.",
-          "b": "Observing the user interacting with the prototype and asking open-ended questions.",
-          "c": "Arguing with the user if they criticize the design.",
-          "d": "Only testing with fellow designers."
+          "a": "It guarantees market success.",
+          "b": "It allows for early feedback, learning, and refinement of ideas before significant investment.",
+          "c": "It eliminates the need for user research.",
+          "d": "It makes the process strictly linear."
         },
         "answer": "b"
       },
       {
-        "question": "38. Effective user testing involves:",
+        "question": "16. Ethics, in its simplest form, is described as:",
         "options": {
-          "a": "Telling the user exactly how to use the prototype.",
-          "b": "Observing the user interacting with the prototype and asking open-ended questions.",
-          "c": "Arguing with the user if they criticize the design.",
-          "d": "Only testing with fellow designers."
+          "a": "A set of legal regulations.",
+          "b": "A system of moral principles guiding decisions and actions.",
+          "c": "A business strategy.",
+          "d": "A design methodology."
         },
         "answer": "b"
       },
       {
-        "question": "39. Iteration in Design Thinking means:",
+        "question": "17. Why is ethics crucial in prototyping and design thinking?",
         "options": {
-          "a": "The process is finished after the first test.",
-          "b": "Using the feedback from testing to refine prototypes or even revisit earlier stages (Define, Ideate).",
-          "c": "Sticking rigidly to the initial plan.",
-          "d": "Focusing only on adding more features."
+          "a": "To make designs more expensive.",
+          "b": "To ensure designs are functional, beneficial, inclusive, and avoid harm to users and society.",
+          "c": "To speed up the design process.",
+          "d": "To focus only on the designer's perspective."
         },
         "answer": "b"
       },
       {
-        "question": "40. The iterative cycle often looks like:",
+        "question": "18. 'Ethical Design' prioritizes the well-being and interests of:",
         "options": {
-          "a": "Empathise -> Define -> Ideate -> Prototype -> Test -> Launch",
-          "b": "Build -> Measure -> Learn (repeatedly)",
-          "c": "Idea -> Build -> Ship -> Feedback",
-          "d": "Plan -> Do -> Check -> Act (PDCA)"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "41. Design Thinking can be applied to:",
-        "options": {
-          "a": "Only product design.",
-          "b": "Only software development.",
-          "c": "A wide range of challenges, including products, services, processes, and business models.",
-          "d": "Only artistic endeavors."
+          "a": "Only the designers",
+          "b": "Only the business",
+          "c": "Users, society, and the environment",
+          "d": "Competitors"
         },
         "answer": "c"
       },
       {
-        "question": "42. A key benefit of using prototyping within the Design Thinking process is:",
+        "question": "19. Which principle of ethical design relates to ensuring designs are usable by people with diverse abilities and backgrounds?",
         "options": {
-          "a": "Increased cost of failure.",
-          "b": "Reduced risk by allowing for early feedback and learning before significant investment.",
-          "c": "Slower time to market.",
-          "d": "Elimination of the need for user research."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "43. Design Thinking fosters:",
-        "options": {
-          "a": "Rigid adherence to rules.",
-          "b": "Collaboration, creativity, and a bias towards action.",
-          "c": "Individual work only.",
-          "d": "Fear of failure."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "44. Ethics in prototyping and design thinking primarily concerns:",
-        "options": {
-          "a": "Maximizing profit at all costs.",
-          "b": "Considering the potential impact of designs on users, society, and the environment; prioritizing well-being, fairness, and avoiding harm.",
-          "c": "Following the design brief exactly, regardless of consequences.",
-          "d": "The aesthetic quality of the prototype only."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "45. Ethical Design principles include:",
-        "options": {
-          "a": "User manipulation for engagement.",
-          "b": "Prioritizing user well-being, inclusivity, transparency, privacy, and avoiding harm.",
-          "c": "Maximizing data collection without consent.",
-          "d": "Focusing only on short-term gains."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "46. The Strava Heatmap case study highlighted ethical issues related to:",
-        "options": {
-          "a": "Material sustainability.",
-          "b": "Unintended consequences of data aggregation and visualization, exposing sensitive location data due to default privacy settings.",
-          "c": "Structural failure of a prototype.",
-          "d": "Patent infringement."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "47. The Facebook/Cambridge Analytica case raised ethical concerns about:",
-        "options": {
-          "a": "Workshop safety.",
-          "b": "Collecting and using personal data without explicit consent for purposes like targeted political advertising.",
-          "c": "The cost of prototyping materials.",
-          "d": "Engineering drawing standards."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "48. AI-driven Facial Recognition systems raise ethical questions regarding:",
-        "options": {
-          "a": "Material selection.",
-          "b": "Privacy, consent (especially when using publicly available photos for training), potential bias, and secondary use harm.",
-          "c": "The speed of laser cutters.",
-          "d": "Wood joinery techniques."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "49. Intellectual Property Rights (IPR) like patents and copyrights are relevant in design thinking to:",
-        "options": {
-          "a": "Prevent any iteration on ideas.",
-          "b": "Protect original ideas and creations, encouraging innovation while respecting the rights of others.",
-          "c": "Make all designs open source.",
-          "d": "Increase the cost of materials."
-        },
-        "answer": "b"
-      },
-      {
-        "question": "50. Incorporating ethical considerations early in the design process helps to:",
-        "options": {
-          "a": "Slow down development unnecessarily.",
-          "b": "Increase the likelihood of creating harmful products.",
-          "c": "Proactively identify and mitigate potential negative impacts, leading to more responsible and sustainable solutions.",
-          "d": "Eliminate the need for user testing."
+          "a": "Transparency and Fairness",
+          "b": "Avoiding Harm",
+          "c": "Inclusivity and Accessibility",
+          "d": "Long-Term Impact"
         },
         "answer": "c"
+      },
+      {
+        "question": "20. Being upfront about design choices and avoiding manipulative tactics relates to which ethical principle?",
+        "options": {
+          "a": "Inclusivity and Accessibility",
+          "b": "Transparency and Fairness",
+          "c": "Avoiding Harm",
+          "d": "User-Centered Approach"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "21. Considering the long-term societal and environmental impact of a design is part of which ethical principle?",
+        "options": {
+          "a": "User-Centered Approach",
+          "b": "Avoiding Harm",
+          "c": "Long-Term Impact",
+          "d": "Transparency and Fairness"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "22. When should ethical considerations be incorporated into the design process?",
+        "options": {
+          "a": "Only at the very end.",
+          "b": "Early in the process, not as an afterthought.",
+          "c": "Only if users complain.",
+          "d": "Never, ethics is separate from design."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "23. Engaging with stakeholders (users, experts, ethicists) helps to:",
+        "options": {
+          "a": "Slow down the process unnecessarily.",
+          "b": "Gain diverse perspectives and identify potential ethical issues.",
+          "c": "Confirm the designer's initial biases.",
+          "d": "Focus solely on technical aspects."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "24. How can prototypes be used specifically for ethical testing?",
+        "options": {
+          "a": "Prototypes cannot be used for ethical testing.",
+          "b": "By testing designs with diverse users to identify potential harms, biases, or exclusion issues early.",
+          "c": "By making prototypes from unethical materials.",
+          "d": "By testing only the aesthetic appeal."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "25. What does IPR stand for?",
+        "options": {
+          "a": "Internal Project Review",
+          "b": "Intellectual Property Rights",
+          "c": "Innovative Product Research",
+          "d": "International Prototyping Regulations"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "26. What is the purpose of Intellectual Property Rights (IPR)?",
+        "options": {
+          "a": "To make all creations free to use.",
+          "b": "To grant creators exclusive legal rights over their creations (inventions, designs, etc.).",
+          "c": "To tax creative works.",
+          "d": "To standardize design processes."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "27. How does IPR encourage innovation in design thinking?",
+        "options": {
+          "a": "By limiting the number of new designs.",
+          "b": "By providing a framework for rewarding and protecting creators, motivating creativity.",
+          "c": "By making designs harder to share.",
+          "d": "By focusing only on established designs."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "28. Which type of IPR protects inventions, such as new product designs or processes?",
+        "options": {
+          "a": "Trademarks",
+          "b": "Copyrights",
+          "c": "Patents",
+          "d": "Design Rights"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "29. Trademarks are used to protect:",
+        "options": {
+          "a": "Inventions",
+          "b": "Original artistic works",
+          "c": "Brand names, logos, and other identifiers",
+          "d": "The aesthetic appearance of a product"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "30. Copyrights protect:",
+        "options": {
+          "a": "Brand names",
+          "b": "Inventions",
+          "c": "Original works of authorship (like designs, software code, literary works)",
+          "d": "Manufacturing processes"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "31. Design Rights specifically protect:",
+        "options": {
+          "a": "The functionality of an invention.",
+          "b": "The brand name.",
+          "c": "The aesthetic aspects of a product (shape, configuration, ornamentation).",
+          "d": "Software code."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "32. The Facebook and Cambridge Analytica case study primarily highlighted ethical issues related to:",
+        "options": {
+          "a": "Product safety",
+          "b": "Environmental impact",
+          "c": "Data privacy, consent, and misuse of user data",
+          "d": "Intellectual property theft"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "33. What was the key ethical failure in the Cambridge Analytica case?",
+        "options": {
+          "a": "The personality quiz app didn't work correctly.",
+          "b": "Data was collected from millions of users without explicit consent and misused for political targeting.",
+          "c": "Facebook charged too much for advertising.",
+          "d": "The psychological profiles created were inaccurate."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "34. The Strava Heatmap case study demonstrated how:",
+        "options": {
+          "a": "Fitness trackers can motivate users.",
+          "b": "Aggregating and visualizing seemingly anonymous data could unintentionally reveal sensitive information (like military base locations).",
+          "c": "Heatmaps are ineffective visualization tools.",
+          "d": "Users always read privacy policies carefully."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "35. What was a contributing factor to the ethical issue in the Strava Heatmap case?",
+        "options": {
+          "a": "The app tracked location inaccurately.",
+          "b": "Data sharing was opt-in by default.",
+          "c": "Data sharing was opt-out (allowed by default), and users were unaware.",
+          "d": "The heatmap was only visible to military personnel."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "36. The case study involving IBM using Flickr photos for facial recognition training raised concerns about:",
+        "options": {
+          "a": "Copyright infringement only.",
+          "b": "The accuracy of the facial recognition algorithm.",
+          "c": "Using publicly available data for a secondary purpose without explicit consent, potentially causing harm.",
+          "d": "The storage cost of the photos."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "37. What does 'secondary use harm' mean in the context of the IBM/Flickr case?",
+        "options": {
+          "a": "The harm caused by the primary use of the photos.",
+          "b": "Harm resulting from using data collected for one purpose for a different purpose without consent.",
+          "c": "Harm to the Flickr platform.",
+          "d": "Harm caused by low-quality photos."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "38. Design Thinking's emphasis on empathy directly supports which principle of ethical design?",
+        "options": {
+          "a": "Long-Term Impact",
+          "b": "User-Centered Approach and Avoiding Harm",
+          "c": "Transparency",
+          "d": "IPR Protection"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "39. The iterative nature of Design Thinking allows for ethical issues to be:",
+        "options": {
+          "a": "Ignored until the end.",
+          "b": "Identified and addressed during the process through testing and refinement.",
+          "c": "Handled solely by the legal team.",
+          "d": "Compounded without resolution."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "40. Why is documenting ethical decisions important?",
+        "options": {
+          "a": "It's required for patent applications.",
+          "b": "To ensure accountability and transparency in the design process.",
+          "c": "To share with competitors.",
+          "d": "It has no real importance."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "41. Which ideation technique uses a graphical web of relationships starting from a central problem statement?",
+        "options": {
+          "a": "Brainstorm",
+          "b": "Brain dump",
+          "c": "Mind map",
+          "d": "SCAMPER"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "42. The 'Human Rule' principle of design thinking suggests that:",
+        "options": {
+          "a": "Design should ignore human factors.",
+          "b": "All design activity is social in nature.",
+          "c": "Humans are resistant to change.",
+          "d": "Only humans can perform design."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "43. The 'Ambiguity Rule' encourages designers to:",
+        "options": {
+          "a": "Avoid ambiguity at all costs.",
+          "b": "Experiment at the limits of their knowledge, accepting ambiguity is inevitable.",
+          "c": "Define everything rigidly from the start.",
+          "d": "Stop designing when ambiguity arises."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "44. The 'Redesign Rule' implies that:",
+        "options": {
+          "a": "Every design must be completely novel.",
+          "b": "Designers should never look at previous solutions.",
+          "c": "All design essentially redesigns existing solutions, as basic human needs remain constant despite changing technology.",
+          "d": "Redesigning is unethical."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "45. The 'Tangibility Rule' highlights the importance of prototypes because they:",
+        "options": {
+          "a": "Make ideas abstract.",
+          "b": "Are expensive to produce.",
+          "c": "Help make ideas tangible, enabling effective communication and testing.",
+          "d": "Are only useful for presentations."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "46. User Personas, used in the Empathize stage, are:",
+        "options": {
+          "a": "Actual users participating in tests.",
+          "b": "Fictional characters created to represent typical users.",
+          "c": "Detailed technical specifications.",
+          "d": "Marketing brochures."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "47. What is a potential ethical pitfall during the 'Ideate' stage?",
+        "options": {
+          "a": "Generating too many ideas.",
+          "b": "Allowing biases to influence which ideas are pursued or ignored.",
+          "c": "Using brainstorming techniques.",
+          "d": "Focusing on user needs."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "48. During the 'Test' stage, it is ethically important to:",
+        "options": {
+          "a": "Only test with users who will give positive feedback.",
+          "b": "Ensure informed consent, protect user privacy, and avoid causing distress.",
+          "c": "Ignore negative feedback.",
+          "d": "Pay users large sums for their time."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "49. If a prototype reveals a potential safety hazard, what is the ethical course of action?",
+        "options": {
+          "a": "Ignore it to meet deadlines.",
+          "b": "Address the hazard through redesign and re-testing.",
+          "c": "Launch the product and wait for user complaints.",
+          "d": "Minimize the hazard in the documentation only."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "50. Continuous learning about emerging ethical issues and best practices is important for designers because:",
+        "options": {
+          "a": "It is required for IPR applications.",
+          "b": "Technology and societal values evolve, presenting new ethical challenges.",
+          "c": "It makes the design process faster.",
+          "d": "Ethical standards never change."
+        },
+        "answer": "b"
       }
     ]
   }
-}
+};
