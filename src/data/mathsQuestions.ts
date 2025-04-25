@@ -1,5 +1,5 @@
 
-export const mathsQuestions = {
+export const mathsQuestions = 
   {
   "module1_linalg": {
     "title": "Module 1: Matrices and Linear Equations",
@@ -1411,5 +1411,5 @@ export const mathsQuestions = {
       }
     ]
   }
-}
+
 };
