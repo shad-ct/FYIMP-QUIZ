@@ -1,457 +1,617 @@
 
 export const mathsQuestions = {
   {
-  "module1": {
-    "title": "Module 1: Differentiation",
+  "module1_linalg": {
+    "title": "Module 1: Matrices and Linear Equations",
     "questions": [
       {
-        "question": "Find the derivative of f(x) = x^2 - 2 at x = 10.",
+        "question": "A rectangular array of symbols or numbers arranged in rows and columns is called a:",
         "options": {
-          "a": "18",
-          "b": "20",
-          "c": "98",
-          "d": "100"
+          "a": "Determinant",
+          "b": "Vector",
+          "c": "Matrix",
+          "d": "Scalar"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Two matrices A = (a_ij) and B = (b_ij) are equal if and only if:",
+        "options": {
+          "a": "They have the same number of rows.",
+          "b": "They have the same number of columns.",
+          "c": "They have the same dimensions and a_ij = b_ij for all i and j.",
+          "d": "Their determinants are equal."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "If A is an m x n matrix, what are the dimensions of its transpose A^T?",
+        "options": {
+          "a": "m x n",
+          "b": "n x m",
+          "c": "m x m",
+          "d": "n x n"
         },
         "answer": "b"
       },
       {
-        "question": "Find the derivative of f(x) = x at x = 1.",
+        "question": "The sum of two matrices A and B is defined only if:",
         "options": {
-          "a": "0",
-          "b": "1",
-          "c": "x",
-          "d": "-1"
+          "a": "A is square and B is square.",
+          "b": "They have the same number of rows.",
+          "c": "They have the same number of columns.",
+          "d": "They have the same dimensions."
+        },
+        "answer": "d"
+      },
+      {
+        "question": "If A and B are m x n matrices, which property holds for matrix addition?",
+        "options": {
+          "a": "AB = BA",
+          "b": "A + B = B + A",
+          "c": "(A + B)^T = A^T + B",
+          "d": "A - B = B - A"
         },
         "answer": "b"
       },
       {
-        "question": "Find the derivative of f(x) = 99x at x = 100.",
+        "question": "The product AB of two matrices A and B is defined if and only if:",
         "options": {
-          "a": "99",
-          "b": "100",
-          "c": "9900",
+          "a": "The number of rows of A equals the number of rows of B.",
+          "b": "The number of columns of A equals the number of columns of B.",
+          "c": "The number of columns of A equals the number of rows of B.",
+          "d": "The number of rows of A equals the number of columns of B."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "If A is an m x n matrix and B is an n x p matrix, what are the dimensions of the product AB?",
+        "options": {
+          "a": "m x n",
+          "b": "n x p",
+          "c": "m x p",
+          "d": "n x n"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which of the following properties is generally NOT true for matrix multiplication (assuming the products are defined)?",
+        "options": {
+          "a": "(AB)C = A(BC)",
+          "b": "A(B + C) = AB + AC",
+          "c": "(A + B)C = AC + BC",
+          "d": "AB = BA"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "The identity matrix I_n is a square matrix with:",
+        "options": {
+          "a": "All entries equal to 1.",
+          "b": "All entries equal to 0.",
+          "c": "Ones on the main diagonal and zeros elsewhere.",
+          "d": "Zeros on the main diagonal and ones elsewhere."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "The transpose of a product (AB)^T is equal to:",
+        "options": {
+          "a": "A^T B^T",
+          "b": "B^T A^T",
+          "c": "(BA)^T",
+          "d": "A B^T"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "The trace of a square matrix A, denoted tr(A), is:",
+        "options": {
+          "a": "The product of the diagonal entries.",
+          "b": "The sum of the diagonal entries.",
+          "c": "The determinant of the matrix.",
+          "d": "The sum of all entries."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which property is true for the trace of square matrices A and B of the same size?",
+        "options": {
+          "a": "tr(AB) = tr(A)tr(B)",
+          "b": "tr(A + B) = tr(A) + tr(B)",
+          "c": "tr(A^T) = -tr(A)",
+          "d": "tr(cA) = c + tr(A) for scalar c"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "A system of linear equations Ax = b is called homogeneous if:",
+        "options": {
+          "a": "A is the zero matrix.",
+          "b": "x is the zero vector.",
+          "c": "b is the zero vector.",
+          "d": "A is the identity matrix."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "A system of linear equations is inconsistent if:",
+        "options": {
+          "a": "It has exactly one solution.",
+          "b": "It has infinitely many solutions.",
+          "c": "It has no solutions.",
+          "d": "The number of equations equals the number of unknowns."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which of the following is NOT an elementary row operation?",
+        "options": {
+          "a": "Interchange two rows.",
+          "b": "Multiply a row by a non-zero scalar.",
+          "c": "Add a multiple of one row to another row.",
+          "d": "Replace a row with the zero vector."
+        },
+        "answer": "d"
+      },
+      {
+        "question": "The process of using elementary row operations to transform a matrix into echelon form is called:",
+        "options": {
+          "a": "Matrix inversion",
+          "b": "Gaussian elimination",
+          "c": "Calculating the determinant",
+          "d": "Finding the trace"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "In an echelon form matrix, the first non-zero entry in each non-zero row is called a:",
+        "options": {
+          "a": "Pivot",
+          "b": "Free variable",
+          "c": "Leading entry",
+          "d": "Diagonal element"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "The method of solving a system in echelon form by solving for variables starting from the last equation is called:",
+        "options": {
+          "a": "Forward substitution",
+          "b": "Gaussian elimination",
+          "c": "Back substitution",
+          "d": "Cramer's rule"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "A square matrix A is invertible (or non-singular) if there exists a matrix A⁻¹ such that:",
+        "options": {
+          "a": "A + A⁻¹ = 0",
+          "b": "A - A⁻¹ = I",
+          "c": "AA⁻¹ = A⁻¹A = I",
+          "d": "AA⁻¹ = 0"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "If A and B are invertible matrices of the same size, then (AB)⁻¹ is:",
+        "options": {
+          "a": "A⁻¹ B⁻¹",
+          "b": "B⁻¹ A⁻¹",
+          "c": "(BA)⁻¹",
+          "d": "A B⁻¹"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "The determinant of a 2x2 matrix [[a, b], [c, d]] is:",
+        "options": {
+          "a": "ac - bd",
+          "b": "ad + bc",
+          "c": "ab - cd",
+          "d": "ad - bc"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "If a matrix has a row of zeros, its determinant is:",
+        "options": {
+          "a": "1",
+          "b": "0",
+          "c": "Undefined",
+          "d": "Equal to the trace"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "If matrix B is obtained from matrix A by interchanging two rows, then det(B) = ?",
+        "options": {
+          "a": "det(A)",
+          "b": "-det(A)",
+          "c": "0",
+          "d": "2det(A)"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "If matrix B is obtained from matrix A by multiplying a row by a scalar λ, then det(B) = ?",
+        "options": {
+          "a": "det(A)",
+          "b": "λ det(A)",
+          "c": "(1/λ) det(A)",
+          "d": "det(A) + λ"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "A square matrix A is invertible if and only if:",
+        "options": {
+          "a": "det(A) = 0",
+          "b": "det(A) ≠ 0",
+          "c": "tr(A) = 0",
+          "d": "A is symmetric"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "The determinant of a product of square matrices det(AB) is:",
+        "options": {
+          "a": "det(A) + det(B)",
+          "b": "det(A) - det(B)",
+          "c": "det(A) det(B)",
+          "d": "det(B) det(A)"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "The determinant of the transpose of a matrix det(A^T) is:",
+        "options": {
+          "a": "det(A)",
+          "b": "-det(A)",
+          "c": "1/det(A)",
           "d": "0"
         },
         "answer": "a"
       },
       {
-        "question": "Find the derivative of y = x^3 - 27.",
+        "question": "A matrix A is symmetric if:",
         "options": {
-          "a": "3x^2 - 27",
-          "b": "x^3",
-          "c": "3x^2",
-          "d": "3x"
+          "a": "A = -A",
+          "b": "A = A⁻¹",
+          "c": "A = A^T",
+          "d": "A^T = -A"
         },
         "answer": "c"
       },
       {
-        "question": "Find the derivative of y = (x-1)(x-2).",
+        "question": "A matrix A is skew-symmetric if:",
         "options": {
-          "a": "2x - 3",
-          "b": "x^2 - 3x + 2",
-          "c": "2x",
-          "d": "1"
+          "a": "A = A^T",
+          "b": "A = A⁻¹",
+          "c": "A = -A",
+          "d": "A^T = -A"
         },
-        "answer": "a"
+        "answer": "d"
       },
       {
-        "question": "Find the derivative of y = 1/x^2.",
+        "question": "A square matrix A is orthogonal if:",
         "options": {
-          "a": "-2/x^3",
-          "b": "1/(2x)",
-          "c": "-1/x^3",
-          "d": "-2/x"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the derivative of y = (x+1)/(x-1) using the quotient rule.",
-        "options": {
-          "a": "2/(x-1)^2",
-          "b": "-2/(x-1)^2",
-          "c": "1",
-          "d": "2x/(x-1)^2"
+          "a": "A = A^T",
+          "b": "A^T = A⁻¹",
+          "c": "det(A) = 0",
+          "d": "A = I"
         },
         "answer": "b"
       },
       {
-        "question": "Find the derivative of y = 2x - 3/4.",
+        "question": "Cramer's rule is used to:",
         "options": {
-          "a": "2",
-          "b": "2x",
-          "c": "0",
-          "d": "2 - 3/4"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the derivative of y = 2/(x+1) - x^2/(3x-1).",
-        "options": {
-          "a": "-2/(x+1)^2 - (3x^2-2x)/(3x-1)^2",
-          "b": "2/(x+1)^2 - (3x^2-2x)/(3x-1)^2",
-          "c": "-2/(x+1)^2 - (9x^2-x^2)/(3x-1)^2",
-          "d": "-2/(x+1)^2 + (3x^2-2x)/(3x-1)^2"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the derivative of y = (5+3x)/x^3.",
-        "options": {
-          "a": "(-10-6x)/x^4",
-          "b": "(3x^3 - 3x^2(5+3x))/x^6",
-          "c": "(-15-6x)/x^4",
-          "d": "3/x^3 - 15/x^4"
+          "a": "Find the inverse of a matrix.",
+          "b": "Calculate the determinant.",
+          "c": "Solve systems of linear equations Ax=b when det(A) ≠ 0.",
+          "d": "Perform LU decomposition."
         },
         "answer": "c"
       },
       {
-        "question": "Find the derivative of y = sin(x)cos(x).",
+        "question": "LU decomposition expresses a square matrix A as:",
         "options": {
-          "a": "cos^2(x) - sin^2(x)",
-          "b": "1",
-          "c": "2sin(x)cos(x)",
-          "d": "sin^2(x) - cos^2(x)"
+          "a": "A = L + U",
+          "b": "A = L - U",
+          "c": "A = LU",
+          "d": "A = UL"
         },
-        "answer": "a"
+        "answer": "c"
       },
       {
-        "question": "Find the derivative of y = 3cot(x) + 5csc(x).",
+        "question": "In LU decomposition, L is typically a ____ matrix and U is a ____ matrix.",
         "options": {
-          "a": "-3csc^2(x) - 5csc(x)cot(x)",
-          "b": "3sec^2(x) + 5sec(x)tan(x)",
-          "c": "-3csc^2(x) + 5csc(x)cot(x)",
-          "d": "3csc^2(x) - 5csc(x)cot(x)"
+          "a": "Lower triangular, Upper triangular",
+          "b": "Upper triangular, Lower triangular",
+          "c": "Diagonal, Symmetric",
+          "d": "Symmetric, Diagonal"
         },
         "answer": "a"
-      },
-      {
-        "question": "Find the derivative of y = 8sin^3(x).",
-        "options": {
-          "a": "24sin^2(x)",
-          "b": "24sin^2(x)cos(x)",
-          "c": "8cos^3(x)",
-          "d": "24cos^2(x)sin(x)"
-        },
-        "answer": "b"
       },
        {
-        "question": "Find the derivative of y = sin^2(x)tan(x).",
+        "question": "Calculate the determinant of [[1, 2], [3, 4]].",
         "options": {
-          "a": "2sin(x)cos(x)tan(x) + sin^2(x)sec^2(x)",
-          "b": "2sin(x)tan(x) + sin^2(x)sec^2(x)",
-          "c": "cos^2(x)tan(x) + sin^2(x)sec^2(x)",
-          "d": "sin(2x)tan(x) + sin^2(x)cot^2(x)"
+          "a": "2",
+          "b": "-2",
+          "c": "10",
+          "d": "-10"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Calculate the product [[1, 0], [2, 1]] * [[3], [4]].",
+        "options": {
+          "a": "[[3], [10]]",
+          "b": "[[3], [8]]",
+          "c": "[[7], [4]]",
+          "d": "[[3, 0], [8, 4]]"
         },
         "answer": "a"
       },
       {
-        "question": "Find the derivative of y = sin(2x).",
+        "question": "Find the trace of [[1, -1, 6], [4, 1, -2], [3, 2, 0]].",
         "options": {
-          "a": "cos(2x)",
-          "b": "2cos(2x)",
-          "c": "-cos(2x)",
-          "d": "-2cos(2x)"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Find the derivative of y = 2e^x.",
-        "options": {
-          "a": "2xe^x",
-          "b": "2e^x",
-          "c": "e^x",
-          "d": "2"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Find the derivative of y = 4ln(x).",
-        "options": {
-          "a": "4/x",
-          "b": "4ln(x)",
-          "c": "4",
-          "d": "ln(x^4)"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the derivative of y = (x^5 - cos(x))/sin(x).",
-        "options": {
-          "a": "(5x^4sin(x) + sin^2(x) - (x^5-cos(x))cos(x))/sin^2(x)",
-          "b": "(5x^4sin(x) + sin^2(x) + (x^5-cos(x))cos(x))/sin^2(x)",
-          "c": "(5x^4 + sin(x))/cos(x)",
-          "d": "(5x^4sin(x) - sin^2(x) - (x^5-cos(x))cos(x))/sin^2(x)"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Find the derivative of y = 4sqrt(x).",
-        "options": {
-          "a": "2/sqrt(x)",
-          "b": "4/sqrt(x)",
-          "c": "2sqrt(x)",
-          "d": "4/(2sqrt(x))"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the derivative of y = x^2 using the definition.",
-        "options": {
-          "a": "x",
-          "b": "2x",
-          "c": "x^2",
-          "d": "2"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Find the derivative of y = sin(x^2) using the chain rule.",
-        "options": {
-          "a": "cos(x^2)",
-          "b": "2xcos(x^2)",
-          "c": "cos(2x)",
-          "d": "sin(2x)"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Find the derivative of y = cos(sin(x)) using the chain rule.",
-        "options": {
-          "a": "-sin(sin(x))",
-          "b": "-sin(sin(x))cos(x)",
-          "c": "sin(cos(x))sin(x)",
-          "d": "-cos(cos(x))sin(x)"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "What is the derivative of a constant function, f(x) = c?",
-        "options": {
-          "a": "c",
-          "b": "1",
-          "c": "0",
-          "d": "x"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "If y = u/v, what is dy/dx according to the quotient rule?",
-        "options": {
-          "a": "(v(du/dx) - u(dv/dx)) / v^2",
-          "b": "(u(dv/dx) - v(du/dx)) / v^2",
-          "c": "(v(du/dx) + u(dv/dx)) / v^2",
-          "d": "(du/dx) / (dv/dx)"
-        },
-        "answer": "a"
-      }
-    ]
-  },
-  "module2": {
-    "title": "Module 2: Integration",
-    "questions": [
-      {
-        "question": "Find the integral of f(x) = x^3 dx.",
-        "options": {
-          "a": "3x^2 + C",
-          "b": "x^4/4 + C",
-          "c": "x^3 + C",
-          "d": "4x^4 + C"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Evaluate the definite integral ∫[0, π] sin(x) dx.",
-        "options": {
-          "a": "0",
-          "b": "1",
-          "c": "2",
-          "d": "-2"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "Find the integral of f(x) = cos(2x)sin(x) dx.",
-        "options": {
-          "a": "-1/2 cos(x) - 1/6 cos(3x) + C",
-          "b": "1/2 sin(x) + 1/6 sin(3x) + C",
-          "c": "-cos(x) - 1/3 cos(3x) + C",
-          "d": "sin(x) + 1/3 sin(3x) + C"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Evaluate the definite integral ∫[0, π/2] cos^2(x) dx.",
-        "options": {
-          "a": "π/4",
-          "b": "π/2",
-          "c": "1",
-          "d": "π"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the integral of f(x) = (x^2 + 1/2)^4 dx.",
-        "options": {
-          "a": "(1/5)(x^2 + 1/2)^5 + C",
-          "b": "4(x^2 + 1/2)^3 * 2x + C",
-          "c": "Requires expansion",
-          "d": "Cannot be integrated"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "Find the integral of f(x) = e^(4x) dx.",
-        "options": {
-          "a": "e^(4x) + C",
-          "b": "4e^(4x) + C",
-          "c": "(1/4)e^(4x) + C",
-          "d": "e^x + C"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "Find the integral of f(x) = cos(3x) dx.",
-        "options": {
-          "a": "sin(3x) + C",
-          "b": "(1/3)sin(3x) + C",
-          "c": "-3sin(3x) + C",
-          "d": "-(1/3)sin(3x) + C"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Find the integral of f(x) = 1/x dx.",
-        "options": {
-          "a": "ln|x| + C",
-          "b": "1 + C",
-          "c": "-1/x^2 + C",
-          "d": "x + C"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "Find the integral of f(x) = sqrt(x) dx.",
-        "options": {
-          "a": "(1/2)x^(-1/2) + C",
-          "b": "x^(3/2) + C",
-          "c": "(2/3)x^(3/2) + C",
-          "d": "(3/2)x^(3/2) + C"
-        },
-        "answer": "c"
-      },
-      {
-        "question": "Find the integral of f(x) = e^x / (1 + e^x) dx.",
-        "options": {
-          "a": "ln|1 + e^x| + C",
-          "b": "e^x + ln|1+e^x| + C",
-          "c": "arctan(e^x) + C",
-          "d": "e^x / (e^x) + C"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "What is the integral of sec^2(x) dx?",
-        "options": {
-          "a": "tan(x) + C",
-          "b": "cot(x) + C",
-          "c": "sec(x)tan(x) + C",
-          "d": "ln|sec(x)| + C"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "What is the integral of csc^2(x) dx?",
-        "options": {
-          "a": "tan(x) + C",
-          "b": "-cot(x) + C",
-          "c": "-csc(x)cot(x) + C",
-          "d": "ln|csc(x)| + C"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "What is the integral of sec(x)tan(x) dx?",
-        "options": {
-          "a": "sec(x) + C",
-          "b": "tan(x) + C",
-          "c": "csc(x) + C",
-          "d": "cot(x) + C"
-        },
-        "answer": "a"
-      },
-      {
-        "question": "What is the integral of csc(x)cot(x) dx?",
-        "options": {
-          "a": "sec(x) + C",
-          "b": "-csc(x) + C",
-          "c": "csc(x) + C",
-          "d": "-cot(x) + C"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "Evaluate ∫[a, a] f(x) dx.",
-        "options": {
-          "a": "f(a)",
-          "b": "0",
-          "c": "2f(a)",
-          "d": "Undefined"
-        },
-        "answer": "b"
-      },
-      {
-        "question": "If ∫[a, b] f(x) dx = F(b) - F(a), what is ∫[b, a] f(x) dx?",
-        "options": {
-          "a": "F(b) - F(a)",
-          "b": "F(a) - F(b)",
-          "c": "F(a) + F(b)",
+          "a": "2",
+          "b": "3",
+          "c": "14",
           "d": "0"
         },
-        "answer": "b"
+        "answer": "a"
       },
       {
-        "question": "The integral ∫ 1 / (a^2 + x^2) dx is:",
+        "question": "If A = [[1, 2], [2, 3]], what is A + A^T?",
         "options": {
-          "a": "ln|a^2+x^2| + C",
-          "b": "(1/a)arctan(x/a) + C",
-          "c": "arcsin(x/a) + C",
-          "d": "(1/2a)ln|(x-a)/(x+a)| + C"
+          "a": "[[2, 4], [4, 6]]",
+          "b": "[[1, 4], [4, 3]]",
+          "c": "[[2, 4], [4, 3]]",
+          "d": "[[1, 2], [2, 3]]"
         },
-        "answer": "b"
+        "answer": "a"
       },
       {
-        "question": "The integral ∫ 1 / sqrt(a^2 - x^2) dx is:",
+        "question": "A system with more unknowns than equations (m < n) cannot have:",
         "options": {
-          "a": "ln|sqrt(a^2-x^2)| + C",
-          "b": "(1/a)arctan(x/a) + C",
-          "c": "arcsin(x/a) + C",
-          "d": "ln|x + sqrt(x^2-a^2)| + C"
+          "a": "No solution",
+          "b": "Infinitely many solutions",
+          "c": "Exactly one unique solution",
+          "d": "A trivial solution"
         },
         "answer": "c"
       },
       {
-        "question": "The integration by parts formula is ∫ u dv = ?",
+        "question": "Find the inverse of [[1, 2], [0, 1]].",
         "options": {
-          "a": "uv - ∫ v du",
-          "b": "uv + ∫ v du",
-          "c": "∫ v du - uv",
-          "d": "u'v - uv'"
+          "a": "[[1, -2], [0, 1]]",
+          "b": "[[1, 0], [-2, 1]]",
+          "c": "[[1, 2], [0, 1]]",
+          "d": "[[-1, 2], [0, -1]]"
         },
         "answer": "a"
       },
       {
-        "question": "To integrate ∫ (px+q) / ((x-a)(x-b)) dx using partial fractions, we set it equal to:",
+        "question": "What is the determinant of [[1, 0, 2], [0, 3, 0], [4, 0, 5]]?",
         "options": {
-          "a": "A/(x-a) + B/(x-b)",
-          "b": "A/(x-a)^2 + B/(x-b)",
-          "c": "(Ax+B)/(x-a) + C/(x-b)",
-          "d": "A/(x-a) + Bx/(x-b)"
+          "a": "-3",
+          "b": "3",
+          "c": "-9",
+          "d": "9"
         },
-        "answer": "a"
+        "answer": "c"
       }
     ]
   },
-    "module3": {
+  "module2_linalg": {
+    "title": "Module 2: Vector Spaces and Linear Maps",
+    "questions": [
+      {
+        "question": "Which of the following is NOT a required property for a set V to be a vector space over a field F?",
+        "options": {
+          "a": "Closure under vector addition.",
+          "b": "Existence of a multiplicative identity for vectors.",
+          "c": "Existence of an additive identity (zero vector).",
+          "d": "Associativity of scalar multiplication."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "The set of all polynomials of degree exactly 2, P_2(x), with standard addition and scalar multiplication is a vector space.",
+        "options": {
+          "a": "True",
+          "b": "False",
+          "c": "Only if the coefficients are real",
+          "d": "Only if the coefficients are positive"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "A subset W of a vector space V is a subspace if:",
+        "options": {
+          "a": "W contains the zero vector.",
+          "b": "W is closed under vector addition.",
+          "c": "W is closed under scalar multiplication.",
+          "d": "All of the above (W is non-empty and closed under addition and scalar multiplication)."
+        },
+        "answer": "d"
+      },
+      {
+        "question": "A linear combination of vectors v_1, v_2, ..., v_k is an expression of the form:",
+        "options": {
+          "a": "v_1 + v_2 + ... + v_k",
+          "b": "c(v_1 + v_2 + ... + v_k)",
+          "c": "c_1 v_1 + c_2 v_2 + ... + c_k v_k",
+          "d": "v_1 v_2 ... v_k"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "The span of a set of vectors S = {v_1, ..., v_k} is:",
+        "options": {
+          "a": "The set S itself.",
+          "b": "The set of all linear combinations of vectors in S.",
+          "c": "The largest vector in S.",
+          "d": "The zero vector."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "A set of vectors {v_1, ..., v_k} is linearly independent if the equation c_1 v_1 + ... + c_k v_k = 0 implies:",
+        "options": {
+          "a": "At least one c_i is non-zero.",
+          "b": "All c_i are equal to 1.",
+          "c": "All c_i are equal to 0.",
+          "d": "The vectors form a basis."
+        },
+        "answer": "c"
+      },
+      {
+        "question": "A basis for a vector space V is a set of vectors that is:",
+        "options": {
+          "a": "Linearly dependent and spans V.",
+          "b": "Linearly independent but does not span V.",
+          "c": "Linearly dependent but does not span V.",
+          "d": "Linearly independent and spans V."
+        },
+        "answer": "d"
+      },
+      {
+        "question": "The dimension of a vector space V, dim(V), is:",
+        "options": {
+          "a": "The number of vectors in V.",
+          "b": "The number of vectors in any basis for V.",
+          "c": "The number of subspaces of V.",
+          "d": "Infinite for most common spaces."
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is the dimension of R^3 (the space of 3-component real vectors)?",
+        "options": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "Infinite"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "A function T: V -> W between vector spaces V and W is a linear map (or transformation) if for all u, v in V and scalar c:",
+        "options": {
+          "a": "T(u + v) = T(u) + T(v) and T(cu) = cT(u)",
+          "b": "T(uv) = T(u)T(v)",
+          "c": "T(u + v) = T(u)T(v) and T(cu) = c + T(u)",
+          "d": "T(c + u) = cT(u)"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "The kernel (or null space) of a linear map T: V -> W is the set:",
+        "options": {
+          "a": "{w in W | T(v) = w for some v in V}",
+          "b": "{v in V | T(v) = 0_W}",
+          "c": "{v in V | T(v) = v}",
+          "d": "{w in W | T(0_V) = w}"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "The image (or range) of a linear map T: V -> W is the set:",
+        "options": {
+          "a": "{w in W | T(v) = w for some v in V}",
+          "b": "{v in V | T(v) = 0_W}",
+          "c": "{v in V | T(v) = v}",
+          "d": "{w in W | T(0_V) = w}"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "The Rank-Nullity Theorem states that for a linear map T: V -> W where V is finite-dimensional:",
+        "options": {
+          "a": "rank(T) + nullity(T) = dim(W)",
+          "b": "rank(T) - nullity(T) = dim(V)",
+          "c": "rank(T) * nullity(T) = dim(V)",
+          "d": "rank(T) + nullity(T) = dim(V)"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "An isomorphism between vector spaces V and W is a linear map that is:",
+        "options": {
+          "a": "Only injective (one-to-one)",
+          "b": "Only surjective (onto)",
+          "c": "Bijective (one-to-one and onto)",
+          "d": "Maps V to the zero vector in W"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "If two finite-dimensional vector spaces V and W are isomorphic, then:",
+        "options": {
+          "a": "dim(V) < dim(W)",
+          "b": "dim(V) > dim(W)",
+          "c": "dim(V) = dim(W)",
+          "d": "dim(V) = 0 or dim(W) = 0"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "The standard basis for R^2 is:",
+        "options": {
+          "a": "{[1, 0], [0, 1]}",
+          "b": "{[1, 1]}",
+          "c": "{[1, 0], [1, 1]}",
+          "d": "{[1, 1], [0, 0]}"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Is the set {[1, 1], [2, 2]} linearly independent in R^2?",
+        "options": {
+          "a": "Yes",
+          "b": "No",
+          "c": "Depends on the field",
+          "d": "Cannot be determined"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Is T(x, y) = (x+1, y) a linear map from R^2 to R^2?",
+        "options": {
+          "a": "Yes",
+          "b": "No",
+          "c": "Only if x=0",
+          "d": "Only if y=0"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is the dimension of the vector space of all 2x2 matrices with real entries?",
+        "options": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "The kernel of the linear map T(x, y, z) = (x, y, 0) from R^3 to R^3 is:",
+        "options": {
+          "a": "The xy-plane",
+          "b": "The yz-plane",
+          "c": "The x-axis",
+          "d": "The z-axis"
+        },
+        "answer": "d"
+      }
+    ]
+  },
+  "module3_calc": {
     "title": "Module 3: Parametric Equations - Basics & Calculus I",
     "questions": [
       {
@@ -656,7 +816,7 @@ export const mathsQuestions = {
       }
     ]
   },
-  "module4": {
+  "module4_calc": {
     "title": "Module 4: Parametric Equations - Calculus II",
     "questions": [
       {
@@ -841,7 +1001,7 @@ export const mathsQuestions = {
       }
     ]
   },
-  "module5": {
+  "module5_calc": {
     "title": "Module 5: Polar Coordinates - Basics & Calculus",
     "questions": [
       {
@@ -1046,7 +1206,7 @@ export const mathsQuestions = {
       }
     ]
   },
-  "module6": {
+  "module6_calc": {
     "title": "Module 6: Conic Sections",
     "questions": [
       {
